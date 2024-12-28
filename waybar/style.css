@@ -1,0 +1,110 @@
+* { 
+    padding: 0;
+    margin: 0;
+    
+}
+
+#waybar { 
+  background-color: transparent; 
+  color: #d3c6aa;
+}
+
+.modules-left {
+background-color: #2f383e;
+margin-left: 8px;
+margin-bottom: 8px;
+padding: 0px 12px 0px 12px
+}
+
+.modules-center {
+background-color: transparent;
+margin-left: 0px;
+margin-bottom: 8px;
+}
+
+.modules-right {
+background-color: transparent;
+margin-bottom: 6px;
+padding: 0px 0px 0px 6px;
+margin-right: 8px;
+}
+
+#workspaces  {
+background-color: transparent;
+
+}
+
+#workspaces button {
+border-radius: 0px;
+background: #83c092;
+margin-left: 4px;
+margin-right: 4px;
+color: #2f383e;
+border-left: 4px solid #2f383e;
+border-right: 4px solid #2f383e;
+}
+
+#workspaces button.focused {
+background: #a7c080;
+
+}
+
+#mpd {
+padding-left: 4px;
+padding-right: 4px;
+background-color: #2f383e;
+}
+
+#idle_inhibitor {
+padding-left: 4px;
+padding-right: 4px;
+background-color: #2f383e;
+}
+
+#pulseaudio { 
+padding-left: 4px;
+padding-right: 4px;
+background-color: #2f383e;
+}
+
+#power-profiles-daemon {
+padding-left: 4px;
+padding-right: 4px;
+background-color: #2f383e;
+}
+
+#backlight {
+padding-left: 4px;
+padding-right: 4px;
+background-color: #2f383e;
+}
+
+#battery {
+padding-left: 4px;
+padding-right: 4px;
+background-color: #2f383e;
+}
+
+#clock {
+padding-left: 4px;
+padding-right: 4px;
+background-color: #2f383e;
+}
+
+#custom-bluetooth {
+padding-left: 4px;
+padding-right: 4px;
+background-color: #2f383e;
+}
+
+#tray {
+padding-left: 4px;
+padding-right: 4px;
+background-color: #2f383e;
+}
+
+#custom-power {
+padding-left: 4px;
+padding-right: 4px;
+background-color: #2f383e;
+}

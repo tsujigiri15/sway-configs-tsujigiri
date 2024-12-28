@@ -1,0 +1,52 @@
+{
+  "defaultSettings": {
+    "checkUpdatesInterval": 10,
+    "enableUpdates": false,
+    "addDesktopShortcuts": false,
+    "addStartMenuShortcuts": false,
+    "autoInstallDxvk": true,
+    "autoInstallVkd3d": true,
+    "autoInstallDxvkNvapi": false,
+    "addSteamShortcuts": false,
+    "preferSystemLibs": false,
+    "checkForUpdatesOnStartup": true,
+    "autoUpdateGames": false,
+    "customWinePaths": [],
+    "defaultInstallPath": "/home/tom/Games/Heroic",
+    "libraryTopSection": "disabled",
+    "defaultSteamPath": "/home/tom/.steam/steam",
+    "defaultWinePrefix": "/home/tom/Games/Heroic/Prefixes/default",
+    "hideChangelogsOnStartup": false,
+    "language": "",
+    "maxWorkers": 0,
+    "minimizeOnLaunch": false,
+    "nvidiaPrime": false,
+    "enviromentOptions": [],
+    "wrapperOptions": [
+      {
+        "exe": "game-performance",
+        "args": ""
+      }
+    ],
+    "showFps": false,
+    "useGameMode": false,
+    "wineCrossoverBottle": "Heroic",
+    "winePrefix": "/home/tom/Games/Heroic/Prefixes/default",
+    "wineVersion": {
+      "bin": "/usr/share/steam/compatibilitytools.d/proton-cachyos/proton",
+      "name": "Proton - proton-cachyos",
+      "type": "proton"
+    },
+    "enableEsync": true,
+    "enableFsync": true,
+    "enableMsync": false,
+    "eacRuntime": true,
+    "battlEyeRuntime": true,
+    "framelessWindow": false,
+    "beforeLaunchScriptPath": "",
+    "afterLaunchScriptPath": "",
+    "showMangohud": true,
+    "exitToTray": true
+  },
+  "version": "v0"
+}

@@ -1,0 +1,9 @@
+font=Liberation Mono Regular 10
+background-color=#282828
+text-color=#a89984
+border-size=2
+border-color=#83a598
+default-timeout=8000
+
+on-notify=exec mpv /usr/share/sounds/freedesktop/stereo/message.oga
+on-button-right=exec makoctl menu -n "$id" dmenu -p 'Select action: '

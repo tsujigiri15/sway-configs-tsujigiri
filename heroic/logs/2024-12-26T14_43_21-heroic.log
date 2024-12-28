@@ -1,0 +1,113 @@
+(14:43:21) INFO:    [Legendary]:        Legendary location: /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary
+(14:43:21) INFO:    [Gog]:              GOGDL location: /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/gogdl
+(14:43:21) INFO:    [Connection]:       Connectivity: check-online
+(14:43:21) INFO:    [Connection]:       Pinging external endpoints
+(14:43:22) INFO:    [Gog]:              Checking for existing gog manifests
+(14:43:23) WARNING: [Backend]:          Protocol already registered.
+(14:43:23) INFO:    [Connection]:       Connectivity: online
+(14:43:23) INFO:    [Backend]:          User Not Found, removing it from Store
+(14:43:23) ERROR:   [Gog]:              Unable to syncQueued playtime, userData not present
+(14:43:23) INFO:    [Gog]:              Running command: GOGDL_CONFIG_PATH=/home/tom/.config/heroic/gogdlConfig /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/gogdl --auth-config-path /home/tom/.config/heroic/gog_store/auth.json auth
+(14:43:23) INFO:    [Backend]:          AreWeAntiCheatYet data downloaded
+(14:43:24) INFO:    [Legendary]:        Running command: LEGENDARY_CONFIG_PATH=/home/tom/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary --version
+(14:43:24) INFO:    [Gog]:              Running command: GOGDL_CONFIG_PATH=/home/tom/.config/heroic/gogdlConfig /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/gogdl --auth-config-path /home/tom/.config/heroic/gog_store/auth.json --version
+(14:43:24) INFO:    [Nile]:             Running command: NILE_CONFIG_PATH=/home/tom/.config/heroic/nile_config /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/nile --version
+(14:43:25) DEBUG:   [Backend]:          Unable to load Steam Libraries, libraryfolders.vdf not found
+(14:43:25) INFO:    [DXVKInstaller]:    The GPU(s) in this system only support Vulkan 1.1/1.2, falling back to VKD3D 2.6
+(14:43:25) INFO:    [DXVKInstaller]:    The GPU(s) in this system only support Vulkan 1.1/1.2, falling back to DXVK 1.10.3
+(14:43:25) INFO:    [Winetricks]:       Downloading Winetricks
+(14:43:25) INFO:    [WineDownloader]:   Updating wine versions info
+(14:43:25) INFO:    [WineDownloader]:   Fetching upstream information...
+(14:43:25) INFO:    [Backend]:          Frontend Ready
+(14:43:25) INFO:    [Backend]:          
+System Information:
+CPU: 4x Intel(R) Core(TM) i3-3227U CPU @ 1.90GHz
+Memory: 3.98 GB (used: 1.43 GB)
+GPUs:
+  GPU 0:
+    Name: Intel Corporation 3rd Gen Core processor Graphics Controller
+    IDs: D=0166 V=8086 SD=90b8 SV=104d
+    Driver: i915
+OS: CachyOS Linux 6.12.6-1-cachyos (linux)
+
+The current system is not a Steam Deck
+We are not running inside a Flatpak container
+
+Software Versions:
+  Heroic: 2.15.2 Emeth
+  Legendary: 0.20.36 Urban Flight (Heroic)
+  gogdl: 1.1.2
+  comet: comet 0.1.2
+
+  Nile: 1.1.2 Will A. Zeppeli
+
+(14:43:25) INFO:    [DXVKInstaller]:    Updating dxvk to: dxvk-1.10.3
+(14:43:25) INFO:    [DXVKInstaller]:    Updating dxvk-nvapi to: dxvk-nvapi-v0.8.0
+(14:43:25) INFO:    [DXVKInstaller]:    Updating vkd3d to: vkd3d-proton-v2.6
+(14:43:25) INFO:    [Backend]:          Checking for new Heroic Updates
+(14:43:25) INFO:    [Backend]:          Checking for current version changelog
+(14:43:25) INFO:    [Frontend]:         Updated to a new version, cleaaning up the cache.
+(14:43:26) INFO:    [Legendary]:        Running command: LEGENDARY_CONFIG_PATH=/home/tom/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/legendary cleanup
+(14:43:26) INFO:    [WineDownloader]:   wine versions updated
+(14:43:26) INFO:    [WineDownloader]:   Start installation of wine version Wine-GE-Proton8-26
+(14:43:26) INFO:    [Frontend]:         Refreshing undefined Library
+(14:43:26) WARNING: [Backend]:          refresh not implemented on Sideload Library Manager
+(14:43:26) INFO:    [Legendary]:        Refreshing library...
+(14:43:27) INFO:    [WineDownloader]:   Updating wine versions info
+(14:43:27) INFO:    [WineDownloader]:   Fetching upstream information...
+(14:43:28) INFO:    [WineDownloader]:   wine versions updated
+(14:43:29) INFO:    [DownloadManager]:  Downloader: Finished downloading https://github.com/Heroic-Games-Launcher/vkd3d-proton/releases/download/v2.6/vkd3d-proton-v2.6.tar.xz
+(14:43:29) INFO:    [DXVKInstaller]:    Downloaded vkd3d, extracting...
+(14:43:29) INFO:    [DownloadManager]:  Downloader: Finished downloading https://github.com/jp7677/dxvk-nvapi/releases/download/v0.8.0/dxvk-nvapi-v0.8.0.tar.gz
+(14:43:29) INFO:    [DXVKInstaller]:    Downloaded dxvk-nvapi, extracting...
+(14:43:29) INFO:    [DXVKInstaller]:    vkd3d updated!
+(14:43:29) INFO:    [DXVKInstaller]:    dxvk-nvapi updated!
+(14:43:30) INFO:    [Backend]:          Starting the Download Queue
+(14:43:30) INFO:    [Backend]:          Downloaded: 4.3 MB / 222.76 MB  @1.72 MB/s (1.93%)
+(14:43:32) INFO:    [DownloadManager]:  Downloader: Finished downloading https://github.com/doitsujin/dxvk/releases/download/v1.10.3/dxvk-1.10.3.tar.gz
+(14:43:32) INFO:    [DXVKInstaller]:    Downloaded dxvk, extracting...
+(14:43:32) INFO:    [DXVKInstaller]:    dxvk updated!
+(14:43:32) INFO:    [Backend]:          Downloaded: 16.41 MB / 222.76 MB  @4.84 MB/s (7.37%)
+(14:43:35) INFO:    [Backend]:          Downloaded: 29.87 MB / 222.76 MB  @5.38 MB/s (13.41%)
+(14:43:36) INFO:    [Backend]:          Downloaded: 36.63 MB / 222.76 MB  @5.41 MB/s (16.44%)
+(14:43:39) INFO:    [Backend]:          Downloaded: 50.97 MB / 222.76 MB  @5.28 MB/s (22.88%)
+(14:43:42) INFO:    [Backend]:          Downloaded: 65.39 MB / 222.76 MB  @5.65 MB/s (29.35%)
+(14:43:43) INFO:    [Backend]:          Downloaded: 71.46 MB / 222.76 MB  @5.67 MB/s (32.08%)
+(14:43:45) INFO:    [Backend]:          Downloaded: 85.57 MB / 222.76 MB  @5.63 MB/s (38.42%)
+(14:43:48) INFO:    [Backend]:          Downloaded: 103.34 MB / 222.76 MB  @5.57 MB/s (46.39%)
+(14:43:51) INFO:    [Backend]:          Downloaded: 119.71 MB / 222.76 MB  @5.6 MB/s (53.74%)
+(14:43:54) INFO:    [Backend]:          Downloaded: 133.54 MB / 222.76 MB  @5.57 MB/s (59.95%)
+(14:43:56) INFO:    [Backend]:          Downloaded: 148.6 MB / 222.76 MB  @5.44 MB/s (66.71%)
+(14:43:59) INFO:    [Backend]:          Downloaded: 161.71 MB / 222.76 MB  @5.24 MB/s (72.60%)
+(14:44:01) INFO:    [Backend]:          Downloaded: 170.77 MB / 222.76 MB  @5.05 MB/s (76.66%)
+(14:44:02) INFO:    [Backend]:          Downloaded: 178.71 MB / 222.76 MB  @5.59 MB/s (80.23%)
+(14:44:03) DEBUG:   [Backend]:          Unable to load Steam Libraries, libraryfolders.vdf not found
+(14:44:05) INFO:    [Backend]:          Downloaded: 194.52 MB / 222.76 MB  @5.45 MB/s (87.32%)
+(14:44:06) INFO:    [Backend]:          Downloaded: 202.2 MB / 222.76 MB  @5.68 MB/s (90.77%)
+(14:44:09) INFO:    [Backend]:          Downloaded: 216.34 MB / 222.76 MB  @5.65 MB/s (97.12%)
+(14:44:10) INFO:    [Backend]:          Downloaded: 222.49 MB / 222.76 MB  @5.57 MB/s (99.88%)
+(14:44:11) INFO:    [DownloadManager]:  Downloader: Finished downloading https://github.com/GloriousEggroll/wine-ge-custom/releases/download/GE-Proton8-26/wine-lutris-GE-Proton8-26-x86_64.tar.xz
+(14:44:41) INFO:    [WineDownloader]:   Finished installation of wine version Wine-GE-Proton8-26
+(14:44:41) DEBUG:   [Backend]:          Unable to load Steam Libraries, libraryfolders.vdf not found
+(14:44:41) INFO:    [Backend]:          Changing wine version to Wine - Wine-GE-Proton8-26
+(14:44:42) INFO:    [Backend]:          Heroic: Setting wineVersion to {"bin":"/home/tom/.config/heroic/tools/wine/Wine-GE-Proton8-26/bin/wine","name":"Wine - Wine-GE-Proton8-26","type":"wine","lib":"/home/tom/.config/heroic/tools/wine/Wine-GE-Proton8-26/lib64","lib32":"/home/tom/.config/heroic/tools/wine/Wine-GE-Proton8-26/lib","wineserver":"/home/tom/.config/heroic/tools/wine/Wine-GE-Proton8-26/bin/wineserver"} (previous value: {"bin":"","name":"Default Wine - Not Found","type":"wine"})
+(14:45:58) INFO:    [Gog]:              Logging using GOG credentials
+(14:45:58) INFO:    [Gog]:              Running command: GOGDL_CONFIG_PATH=/home/tom/.config/heroic/gogdlConfig /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/gogdl --auth-config-path /home/tom/.config/heroic/gog_store/auth.json auth --code <redacted>
+(14:45:59) INFO:    [Gog]:              Login Successful
+(14:45:59) INFO:    [Gog]:              Checking if login is valid
+(14:45:59) INFO:    [Gog]:              Running command: GOGDL_CONFIG_PATH=/home/tom/.config/heroic/gogdlConfig /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/gogdl --auth-config-path /home/tom/.config/heroic/gog_store/auth.json auth
+(14:46:00) INFO:    [Gog]:              Saved username to config file
+(14:46:00) INFO:    [Frontend]:         Refreshing gog Library
+(14:46:01) INFO:    [Gog]:              Running command: GOGDL_CONFIG_PATH=/home/tom/.config/heroic/gogdlConfig /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/gogdl --auth-config-path /home/tom/.config/heroic/gog_store/auth.json auth
+(14:46:01) INFO:    [Gog]:              Getting GOG library
+(14:46:01) INFO:    [Gog]:              Running command: GOGDL_CONFIG_PATH=/home/tom/.config/heroic/gogdlConfig /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/gogdl --auth-config-path /home/tom/.config/heroic/gog_store/auth.json auth
+(14:46:07) INFO:    [Gog]:              Saved games data
+(14:46:07) INFO:    [Frontend]:         No cache found, getting data from gog...
+(14:46:07) INFO:    [Gog]:              Running command: GOGDL_CONFIG_PATH=/home/tom/.config/heroic/gogdlConfig /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/gogdl --auth-config-path /home/tom/.config/heroic/gog_store/auth.json auth
+(14:46:08) INFO:    [Gog]:              Getting GOG library
+(14:46:08) INFO:    [Gog]:              Running command: GOGDL_CONFIG_PATH=/home/tom/.config/heroic/gogdlConfig /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/gogdl --auth-config-path /home/tom/.config/heroic/gog_store/auth.json auth
+(14:46:09) INFO:    [Gog]:              Saved games data
+(14:46:23) INFO:    [Gog]:              Running command: GOGDL_CONFIG_PATH=/home/tom/.config/heroic/gogdlConfig /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/gogdl --auth-config-path /home/tom/.config/heroic/gog_store/auth.json auth
+(14:46:23) DEBUG:   [Backend]:          Unable to load Steam Libraries, libraryfolders.vdf not found
+(14:46:24) INFO:    [Gog]:              Getting game metadata: GOGDL_CONFIG_PATH=/home/tom/.config/heroic/gogdlConfig /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/gogdl --auth-config-path /home/tom/.config/heroic/gog_store/auth.json info 1448280389 --os windows
+(14:46:49) INFO:    [Gog]:              Running command: GOGDL_CONFIG_PATH=/home/tom/.config/heroic/gogdlConfig /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/gogdl --auth-config-path /home/tom/.config/heroic/gog_store/auth.json auth

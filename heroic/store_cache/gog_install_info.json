@@ -1,0 +1,113 @@
+{
+	"1448280389_windows_null_undefined_": {
+		"game": {
+			"app_name": "1448280389",
+			"title": "The Moment of Silence",
+			"owned_dlc": [],
+			"version": "",
+			"launch_options": [],
+			"branches": [
+				null
+			],
+			"buildId": 55344364
+		},
+		"manifest": {
+			"download_size": 3658376217,
+			"disk_size": 3658376217,
+			"perLangSize": {
+				"Polish": {
+					"download_size": 3655554857,
+					"disk_size": 3655554857
+				},
+				"German": {
+					"download_size": 3641814990,
+					"disk_size": 3641814990
+				},
+				"Russian": {
+					"download_size": 3689935259,
+					"disk_size": 3689935259
+				},
+				"French": {
+					"download_size": 3640165074,
+					"disk_size": 3640165074
+				},
+				"Italian": {
+					"download_size": 3686818863,
+					"disk_size": 3686818863
+				},
+				"Czech": {
+					"download_size": 3657086881,
+					"disk_size": 3657086881
+				},
+				"Spanish": {
+					"download_size": 3660883427,
+					"disk_size": 3660883427
+				},
+				"*": {
+					"download_size": 1289336,
+					"disk_size": 1289336
+				},
+				"English": {
+					"download_size": 3653909328,
+					"disk_size": 3653909328
+				}
+			},
+			"app_name": "1448280389",
+			"languages": [
+				"Czech",
+				"German",
+				"Polish",
+				"Russian",
+				"French",
+				"Italian",
+				"Spanish",
+				"English"
+			],
+			"versionEtag": "\"1216657018\"",
+			"builds": [
+				{
+					"build_id": "48619748887668117",
+					"product_id": "1448280389",
+					"os": "windows",
+					"branch": null,
+					"version_name": "",
+					"tags": [],
+					"public": true,
+					"date_published": "2015-12-01T14:50:30+0000",
+					"generation": 1,
+					"link": "https://gog-cdn-fastly.gog.com/content-system/v1/manifests/1448280389/windows/55344364/repository.json",
+					"legacy_build_id": 55344364
+				}
+			],
+			"dependencies": [
+				"DirectX"
+			]
+		}
+	},
+	"__timestamp": {
+		"1448280389_windows_null_undefined_": "Thu Dec 26 2024 14:46:25 GMT+0000 (Greenwich Mean Time)",
+		"1425299904_linux_null_undefined_": "Thu Dec 26 2024 14:55:57 GMT+0000 (Greenwich Mean Time)"
+	},
+	"1425299904_linux_null_undefined_": {
+		"game": {
+			"app_name": "1425299904",
+			"title": "The Dig®",
+			"owned_dlc": [],
+			"version": "gog-2",
+			"launch_options": []
+		},
+		"manifest": {
+			"download_size": 565575326,
+			"disk_size": 763397373,
+			"app_name": "1425299904",
+			"languages": [
+				"en",
+				"fr",
+				"it",
+				"de",
+				"es"
+			],
+			"dependencies": []
+		}
+	}
+}

@@ -1,0 +1,61 @@
+{
+	"isLoggedIn": true,
+	"userData": {
+		"country": "GB",
+		"currencies": [
+			{
+				"code": "GBP",
+				"symbol": "£"
+			},
+			{
+				"code": "USD",
+				"symbol": "$"
+			},
+			{
+				"code": "EUR",
+				"symbol": "€"
+			}
+		],
+		"selectedCurrency": {
+			"code": "GBP",
+			"symbol": "£"
+		},
+		"preferredLanguage": {
+			"code": "en",
+			"name": "English"
+		},
+		"ratingBrand": "PEGI",
+		"isLoggedIn": true,
+		"checksum": {
+			"cart": "955510add1d774f1b72bebe8272e3f51",
+			"games": "78621c9f647b6387ee32d6f465f6be05",
+			"wishlist": "a391645f3d1d6379c6e2056d4023edfe",
+			"reviews_votes": null,
+			"games_rating": null
+		},
+		"updates": {
+			"messages": 0,
+			"pendingFriendRequests": 0,
+			"unreadChatMessages": 0,
+			"products": 16,
+			"forum": 0,
+			"total": 16
+		},
+		"userId": "288602120975",
+		"username": "tsujigiri15",
+		"galaxyUserId": "46987842040750535",
+		"avatar": "https://images.gog.com/8fd8ebce55d2afc7d53f2457a2d0ce65b437b3b451a395ba7ff6c7f4f7b48a1d",
+		"walletBalance": {
+			"currency": "GBP",
+			"amount": 0
+		},
+		"purchasedItems": {
+			"games": 50,
+			"movies": 0
+		},
+		"wishlistedItems": 70,
+		"friends": [],
+		"personalizedProductPrices": [],
+		"personalizedSeriesPrices": []
+	}
+}

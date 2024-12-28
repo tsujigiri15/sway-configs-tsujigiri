@@ -1,0 +1,1601 @@
+{
+	"games": [
+		{
+			"app_name": "gog-redist",
+			"runner": "gog",
+			"title": "Galaxy Common Redistributables",
+			"canRunOffline": true,
+			"install": {
+				"is_dlc": true
+			},
+			"is_installed": true,
+			"art_cover": "https://images.gog-statics.com/516af877f6a03199526d1ce5a76358b8f85f6b828764cf46c820f77ae8832fc5.jpg",
+			"art_square": "https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/5fa80a0fb5ff0b2aaca6730ba213219b.png"
+		},
+		{
+			"runner": "gog",
+			"developer": "Crystal Dynamics",
+			"app_name": "1900745791",
+			"art_cover": "https://images.gog.com/cfc117358f3f2190eb68d1eb7a502d9d446287042cf630b343f0f44564e9be5f.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/14afb687627bba99bf56f29d09fb63cbcd72678784ad3ca6751fc5cdc9695f74.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/429e15491fbd6cac76624d32fd3a7e7d2902c8ed0de9906fb954fd3835b84130.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/715a4f8c5fe906ace44bc5083bfe356dd26029f750506608e31ed35d6d8902f3.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "Tomb Raider: Underworld represents a new advancement in exploration-based gameplay. As fearless adventurer Lara Croft explore exotic locations around the world, each designed with an incredible attention to detail resulting in breathtaking high-definition visual fidelity that creates a truly believable world and delivers a new level of challenge and choice. \r\n \r\nMaster your surroundings: Reach new heights with the broadest range of acrobatic abilities and utilize objects within the environment to uncover new paths to explore. Explore epic and unknown worlds: Discover ancient mysteries of the underworld hidden within the coast of Thailand, frozen islands of the Arctic Sea, the jungles of Mexico, and more. \r\n \r\nTreacherous and unpredictable challenges: Each level is an elaborate multi-stage puzzle masked within an interactive environmental playground offering more flexibility over how the area is solved. New range of combat options: Choose to pacify or kill, target multiple enemies at once with the new dual-target system, and shoot with one hand while suspended with the other.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Adventure",
+					"Platform",
+					"Shooter"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "Tomb Raider: Underworld",
+			"canRunOffline": true,
+			"is_mac_native": false,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"developer": "Croteam",
+			"app_name": "1207658876",
+			"art_cover": "https://images.gog.com/4db343a79edff701757f9f74b7bbf4c0cc8e966a6b861b0c796689d025a9e729.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/d3b151b0f1da1c6d79cd2f60bc05b17db9bc23d8aa3255d9966db9dda57734da.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/42b077f84110b27ace85f4e2a7007b524b941c296d0f7370f77829ae27b1d886.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/d3b151b0f1da1c6d79cd2f60bc05b17db9bc23d8aa3255d9966db9dda57734da.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "Serious Sam is a high-adrenaline single-play and 16-player co-operative arcade-action FPS and Gamespot's Game of the Year 2001!",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Adventure",
+					"Indie",
+					"Shooter"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "Serious Sam: The First Encounter",
+			"canRunOffline": true,
+			"is_mac_native": false,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"developer": "2K Marin",
+			"app_name": "1166983063",
+			"art_cover": "https://images.gog.com/00a05b5145017e647fe3b955f504447dacc01b7bbb7f41f66ea82b1ac4a2ee3a.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/caa1ea995263fe7e0752a07de2c996664683efaf5aff5e22130acc13c13c1bb8.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/db89fbfaef37d4c7d45e138e3437048796c4b59642235a140f4fd4c3544e0b9f.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/b47d19c7b5c7afe5322a5f961765401be4a19b5bec9b0edb6c7bffac40291e79.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "The year is 1962 and the Cold War has the nation gripped by fear. A top-secret government unit called The Bureau begins investigating a series of mysterious attacks by an enemy more powerful than communism. As agent Carter, call the shots, pull the trigger and lead your squad in a gripping third-person tactical shooter set within a covert war to protect humanity from an otherworldly enemy.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Strategy",
+					"Shooter",
+					"Tactical"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "The Bureau: XCOM® Declassified™",
+			"canRunOffline": true,
+			"is_mac_native": false,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"developer": "Sierra On-Line",
+			"app_name": "1207658828",
+			"art_cover": "https://images.gog.com/17e033d39484e1816b3b632d071e6a46ef0f157ce04f80b2d8894587b6c1268b.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/39015d7dcb3b7f44278b18afc9a0411ef3c9cabcaf0eaeb22e71bb68734b7a41.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/c90c545d76589fc71d38f113c2ce969e4d4636aac782b6bb94aacc35c4843430.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/39015d7dcb3b7f44278b18afc9a0411ef3c9cabcaf0eaeb22e71bb68734b7a41.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "The adventure of Gabriel Knight starts with gathering materials for his new book, and ends up becoming a fight for his very soul. During his investigation he discovers that he is the heir to the title of “Schattenjäger”, or “Shadow Hunter”, which has been passed down in his family from generation to generation since times long forgotten. He must now face countless dangers in New Orleans, Africa and Germany, each bringing him ever closer to unraveling the mystery behind suspicious voodoo murders. Haunted by nightmares, he won't give up until he reveals the truth.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Adventure",
+					"Puzzle",
+					"Point-and-click"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "Gabriel Knight: Sins of the Fathers",
+			"canRunOffline": true,
+			"is_mac_native": true,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"developer": "Croteam",
+			"app_name": "1207658877",
+			"art_cover": "https://images.gog.com/c57917ae652b1bd79788b0b8a26b6b3fa9fad8be374cde143ddafb447545ce25.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/29576dd5015cfe257a27a44413bbebd820c383b2102f456a056bffcc93ce40b3.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/8416d45577ed42cbcc35dd057fd2a57b96c59de7c335eafbf69e387121ccc73d.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/66cd4ccf897e30288aaebf71c6c53d87e66e9bb71019c545f4036e3bc85b9476.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "Serious Sam: The Second Encounter, the highly anticipated arcade action FPS sequel to the Serious Sam: The First Encounter, is a high-adrenaline arcade-action shooter heavily focused on frantic arcade-style single player action. In a world where cyberpunk meets fantasy-fiction and advanced technology is mixed with black magic and psycho-powers, Sam travels through the three beautiful worlds, confronting countless Mental's minions on his way to the Mental's base.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Indie",
+					"Shooter"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "Serious Sam: The Second Encounter",
+			"canRunOffline": true,
+			"is_mac_native": false,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"developer": "Cunning Developments",
+			"app_name": "1207658736",
+			"art_cover": "https://images.gog.com/99dce2d8377444dbe7224b40f1c565af8a747dd41d4572c66f742a7d822ed0fd.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/6162aa78a4a7d60a73f7ceeaba5f1022329d6d49dbde71358353b40ec83918a4.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/5a23df8894a66c9e19487677e2775e4a2973c8f9afdf07aeb5ea02b9396379ea.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/6162aa78a4a7d60a73f7ceeaba5f1022329d6d49dbde71358353b40ec83918a4.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "Roll up! Roll up! Travel back to Victorian times with five steam-powered adventures. Use your flippers to tunnel to the Earth's core, journey to the ocean depths, fly through the tallest mountains and steam to a mysterious island to stop the evil General Yagov! Marvel at the most accurate ever ball physics! Balls that really spin, slide, roll and jump! Gasp in awe at the complexity of the table design, featuring bumpers, ramps, drop targets, magnets and more!",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Arcade"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "Pro Pinball Fantastic Journey",
+			"canRunOffline": true,
+			"is_mac_native": false,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"developer": "Interplay Entertainment, Black Isle Studios",
+			"app_name": "1",
+			"art_cover": "https://images.gog.com/05c3dcacbbc3209e0d9b16e52ae1edb192d37dd15b2014beec749f5fa4775acc.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/84c0608a3263f7acad8957b09f10ca393e62f5ba62c80e1f2969ad071f6366df.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/4f4fca6e38d3012e08f0008fe7311d0ddf985041357e885edc25bb1f80846f19.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/9652b5af69e00916568e02cf82686155bc04ada29ec1b649285bc66853aaae27.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "The Vault Dweller is tasked with exploring post-nuclear California in order to retrieve a water chip to replace the broken chip of Vault 13, their home, which they are the first person to ever leave. The player will engage in Western RPG character building and turn-based tactical combat while getting to know settlements and factions of people, mutants and ghouls through branching dialogue trees.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Role-playing (RPG)",
+					"Turn-based strategy (TBS)"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "Fallout Classic",
+			"canRunOffline": true,
+			"is_mac_native": true,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"developer": "Bugbear Entertainment",
+			"app_name": "1207658693",
+			"art_cover": "https://images.gog.com/e171aca41632979e05d65b56a1a52bfb8c4e7cb2f059de8e950b8e3840b9ba22.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/2571f13646fa266dfe3a27f19f34b4baeee022cece2a1b984b0196cbb1e6074d.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/95b6235b1dfad1c1cc09f5075929debce5b19e935f19c081b93d448d20969cd0.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/132c0a7efb256ecc7f0768e0491220c974523f968dad5e61832842e4d5ff18bb.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "FlatOut is adrenaline-filled muscle car racing game packed with explosive physics, spectacular effects and graphics, innovative game play mechanics and good old fun!",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Sport",
+					"Simulator"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "FlatOut",
+			"canRunOffline": true,
+			"is_mac_native": false,
+			"is_linux_native": true
+		},
+		{
+			"runner": "gog",
+			"developer": "Volition",
+			"app_name": "5",
+			"art_cover": "https://images.gog.com/088a3990b54b85a7351c2f37aba8f2db9a3ff160276a2f20879c5620d8b7e492.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/ddb70b3a998205696844852801f9be5b55853b97e983cef86c5e841b341d9cac.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/58f5c24e843221d813cc9b23b9b6c2c2bc16ecc0c5cb26cfa1e2b9339f7d658f.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/ddb70b3a998205696844852801f9be5b55853b97e983cef86c5e841b341d9cac.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "The year is 2367, thirty two years after the Great War. Or at least what YOU thought was the Great War. The seemingly endless tide of Shivan capital ships, bombers and fighters with super advanced technology was nearly overwhelming.As the Terran and Vasudan races finish rebuilding their decimated societies, a disturbance lurks in the not-so-far reaches of the Gamma Draconis system. Your nemesis has arrived... and they are wondering what happened to their scouting party...The game continues on the story from Descent: FreeSpace, once again thrusting the player into the role of a pilot fighting against the mysterious aliens, the Shivans. While defending the human race and its alien Vasudan allies, the player also gets involved in putting down a rebellion of those elements of Vasudan (Hammer of Light) and Human (Neo Terran Front) forces which don't want to cooperate with one another.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Simulator"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "Freespace 2",
+			"canRunOffline": true,
+			"is_mac_native": false,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"developer": "General Arcade, Rebel Act Studios, Fire Falcom",
+			"app_name": "1176525525",
+			"art_cover": "https://images.gog.com/2f88d3bcbeaa2a628ac874c253733d98c422d5e705358b6666f0e47887733210.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/d21787b00042fd4de8aad85342509b958617d426c1f475eecb2539781bb0ef5e.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/86a1f35d260dc96e6557dca7b69723e364691f0fe37682f3d2f327c615d0671f.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/5400d7b0be5163dcb46255c469a2c357a33bd9e5f3704d7ff454ea47c7aaba11.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "Blade of Darkness is a hardcore fantasy action-adventure with unique combat mechanics and role-playing elements that pioneered the “soulsborne” genre. Pick one of four characters to hack and slash through a gory quest to save the world from the forces of Chaos.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Role-playing (RPG)",
+					"Hack and slash/Beat 'em up"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "Blade of Darkness",
+			"canRunOffline": true,
+			"is_mac_native": false,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"developer": "Microids",
+			"app_name": "1207658882",
+			"art_cover": "https://images.gog.com/7da91ca694dafd5d173e11d1e0a7767ba82397d2d06ef8c3fe27204128b909fa.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/7f264c02350724d73513fc3d45564b87be486867b55a0d498b41011be37a166d.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/56eae0eff0aeeeba18e3699e61e235f5062f7cb5a1f0fa6f8ce99d2b2aeaa925.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/28353a232e10fd3eaaec17d81eb42d065b18fa16dd0fcbeaf01942447864e74b.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "Two separate murder cases, in two separate lifetimes - so similar in the smallest of details that one could believe they were performed by the same person. Impossible! One of the crimes took place 75 years ago, while the other just happened! Is someone copying an old serial killer? Or is it remotely possible that the same murderer is still alive and committing more crimes? \r\n \r\nIn this thriller adventure, you'll play as Victoria, an FBI agent, in modern Chicago as well as her grandfather, Gustav, P.I. in Prague in the 1920s. Explore Chicago and Prague and solve puzzles while preforming investigations in two time periods.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Adventure",
+					"Puzzle",
+					"Point-and-click"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "Still Life",
+			"canRunOffline": true,
+			"is_mac_native": true,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"developer": "Ion Storm",
+			"app_name": "1207659012",
+			"art_cover": "https://images.gog.com/02555f227f335c911b313a6e87e60657726f452da757e6b11e5c9eef57263758.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/eda79824c922c1f9d8cceb979f2c86f6296704e731c49b3b438401f7970864b2.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/184653a0b765f80c401da8c317da202d96f4f5aabe34fa21d8bd7189755d1acb.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/eda79824c922c1f9d8cceb979f2c86f6296704e731c49b3b438401f7970864b2.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "Welcome to Anachronox, an abandoned alien artificial planet at the centre of the universe, now home to lowlifes, thieves, and scoundrels. Here we join Sylvester \"Sly Boots\" Bucelli--a down on his luck PI--and a cast of 6 other unlikely heroes on their quest to discover who or what is trying to destroy the universe. They are the only ones that believe it is happening, and the only ones that can do something about it.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Role-playing (RPG)",
+					"Puzzle"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "Anachronox",
+			"canRunOffline": true,
+			"is_mac_native": false,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"developer": "",
+			"app_name": "1207658853",
+			"art_cover": "https://images.gog.com/aece57cc5570183556e4bb09f15522b5682aee38be08d417b91a5420cf75c2da.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/875f5c18585d4a4e8a46738114c6d949541892fdf0577d8267d47eb547de7ac0.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/e82a852d2fc09187eea2d92a6baa5c45e5c4d38457a43e0e7412c1a5747fc4b9.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/875f5c18585d4a4e8a46738114c6d949541892fdf0577d8267d47eb547de7ac0.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "Outcast 1.1 is an enhanced version of the critically acclaimed action-adventure game developed in 1999 by Appeal for the PC.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Role-playing (RPG)",
+					"Adventure"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "Outcast 1.1",
+			"canRunOffline": true,
+			"is_mac_native": false,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"developer": "Nomada Studio",
+			"app_name": "2078272297",
+			"art_cover": "https://images.gog.com/545b499d226a4c8d198bd0ae67e16b1a0d769c4a48c0b462de87370c839f4080.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/9e7122fe690a6ad91c1ff74ead1b00969fab61ce4cdfa12bf2e8703fbd32ff44.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/80f1e821e13b81579d46c1fc8e239edfba484300951d5f11c19ce7fbf0871dd4.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/4170ab868b84991e63451b5f51b77045666298b317aca2fb3e8ae4e696091a4d.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "Gris is a hopeful young girl lost in her own world, dealing with a painful experience in her life. Her journey through sorrow is manifested in her dress, which grants new abilities to better navigate her faded reality. As the story unfolds, Gris will grow emotionally and see her world in a different way, revealing new paths to explore using her new abilities.\n\nGris is a serene and evocative experience, free of danger, frustration or death. Players will explore a meticulously designed world brought to life with delicate art, detailed animation, and an elegant original score. Through the game light puzzles, platforming sequences, and optional skill-based challenges will reveal themselves as more of Gris’s world becomes accessible.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Adventure",
+					"Indie",
+					"Platform",
+					"Puzzle"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "GRIS",
+			"canRunOffline": true,
+			"is_mac_native": true,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"developer": "Access Software",
+			"app_name": "1207658768",
+			"art_cover": "https://images.gog.com/144c9e8621058de774ec60b216e3030ee280be94e0f760409cd15fdbc186ab9c.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/1b0b8a6584d3af108bd32c27303c45b24cdf164209da119a2f7b270c8da389d8.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/1cc03b82acd25690966892699d3c93a058847c5ad5a0167994a5184effcfca4b.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/1b0b8a6584d3af108bd32c27303c45b24cdf164209da119a2f7b270c8da389d8.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "It's April 2043 and you- as Tex Murphy, the last of the old-style gumshoes- find yourself racing against time in the most dangerous game of your life. What is the truth behind the rumored UFO crash at Roswell, New Mexico? Why did the military suddenly shut down and seal off the Roswell complex? And why the frequent references to the lost Mayan civilization?",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Adventure"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "Tex Murphy: The Pandora Directive",
+			"canRunOffline": true,
+			"is_mac_native": true,
+			"is_linux_native": true
+		},
+		{
+			"runner": "gog",
+			"developer": "Navegante Entertainment",
+			"app_name": "2142923325",
+			"art_cover": "https://images.gog.com/dea50843d34ee5e05427f4a639cce78754a9e75231fc43d73981918fd2227bb4.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/fada2822ee7ab2f6808b0d4f3facd88d14220b100b3d4aaeb4063f7e8f3287da.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/a2017103a60519125b7c03fd315b6f80feb4cb21553827d55b88b983c60b4c5f.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/21ed0b06ca3bf5e4ccc8efafa6f1a9079580c362ada4d226dc2e973d545ec94a.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "Greak: Memories of Azur is a beautiful single-player puzzle platformer adventure. You will take the role of three siblings: Greak, Adara and Raydel to guide them through the lands of Azur. Alternate control between them and use their unique abilities to escape from the Urlag invasion.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Role-playing (RPG)",
+					"Adventure",
+					"Indie",
+					"Platform",
+					"Puzzle"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "Greak: Memories of Azur",
+			"canRunOffline": true,
+			"is_mac_native": false,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"developer": "David Wehle",
+			"app_name": "1499274528",
+			"art_cover": "https://images.gog.com/00a6094489409bd2d60da47338cefd290e09d86716bd4c7f32fb30a056fa32e9.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/a17745b88f0fa1429b84ab62f8cd7f16f82145fd0829fbec0a0e4c5badb54a71.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/ec81581233a99263e7031365cadeaffe0762ddc710909f70468e3b1f932de4e7.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/6b6ba0a93fbaeb4688d7af182334edb6a63edf5a92f72f7e1476c917f4b03fc2.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "A beautiful, 3rd-person exploration game centered around two parallel stories: a fox trying to find her missing family, and a young couple dealing with a tragedy in their own. Uncover artifacts from the young couple's life as they too become intertwined in the fox's journey towards The First Tree.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Adventure",
+					"Indie",
+					"Platform",
+					"Simulator"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "The First Tree",
+			"canRunOffline": true,
+			"is_mac_native": true,
+			"is_linux_native": true
+		},
+		{
+			"runner": "gog",
+			"developer": "Ubisoft Paris",
+			"app_name": "1207658920",
+			"art_cover": "https://images.gog.com/600547c007587ffde912026b2b3937090212dd3206fc313e1e15f240cf75db93.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/c2bc02847ddc05851b2959faa22723543dc001d99722c8b9d44c3d51569c0496.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/c0f10578f31d22c4a26bca98a15f4f2b310411320cf52633d25b1a1a129d1028.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/130adea422123d7e0741434c9943b9453508e447681d851e8b06b1c74848b0a7.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "XIII is a cel-shaded first-person shooter based on the popular Belgian cult comic created by Jean Van Hamme and illustrated by William Vance. The game is loosely based on the first five comics. The player unravels clues, trying to solve a conspiracy set in an environment that breathes a comic book ambiance. Footsteps and shots are visualized in text and actions: for example, headshots are shown in a series of still images. Aside from that, the game has all the typical FPS elements: both stealth and action, more than fifteen weapons (shotguns, crossbows, rifles, ...), interaction with environmental objects and plenty of enemies in levels spread all over the world. During the game, the player can learn a number of skills such as silent walking, lockpicking and dual weapons handling.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Puzzle",
+					"Shooter"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "XIII",
+			"canRunOffline": true,
+			"is_mac_native": false,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"developer": "Ubisoft Montpellier",
+			"app_name": "1207658940",
+			"art_cover": "https://images.gog.com/a045b61711215d0aad8d7e5f355f6650b6a884159175c77841b5668fc8093589.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/5dca4d72c2e153379fd321d9fa2debfc79f0496879a319c0fc2bb80755beef9d.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/cffc81fc9ad4196382b87327e651bff4109337aa2ff523db584ad8dba83443d8.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/ce882401c74be818eb90478edadbba6c91f8b2fc0ad70b4fce21d351d5eb30c7.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "With its enchanted storybook look beautifully translated into 3D, lush, vibrant colors, funny enemy designs, and clever jumping puzzles, Rayman 2 is platforming perfection. No arms, no legs, no problem for the little French creation that could.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Adventure",
+					"Platform"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "Rayman 2: The Great Escape",
+			"canRunOffline": true,
+			"is_mac_native": false,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"developer": "Free Radical Design",
+			"app_name": "1207658662",
+			"art_cover": "https://images.gog.com/2ba2ea2442e55df808eb06f154f1643b1cb53423354db055589a7a7003e04a8d.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/ae255cefe704b3fbb09011cbcc9f50a72c5b44406f45a9c631c68aa674d9f3aa.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/e1b0c910b31dfd8f81f4a743d26ac011c1c6674a54198aff1495e5348990ea46.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/f006fd07b1c60c21fdaa6f49bf1aac5b6b6473936c8a8bbdf400bc4e1e54c46f.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "Second Sight is primarily stealth-action, using psychic abilities to stealthily move through levels. Due to it's dark atmosphere, it could be considered a psychological thriller. The game focuses on John Vattic's exploration of his own mind, discovering psychic abilities and a dark history before his amnesia.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Adventure",
+					"Shooter"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "Second Sight",
+			"canRunOffline": true,
+			"is_mac_native": false,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"developer": "Revolution Software",
+			"app_name": "1775031253",
+			"art_cover": "https://images.gog.com/13ad40167662bfb859c0c8315282997cc0f1ba501e415db99d8c67be72a4f980.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/4eef3cf50531c0068a7fbd336ac8bafe8fce8cf2ff67cbe5b12439f870d4cb16.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/523262a1c7c6ce6b321d0bde6e255f995f6009dce35c5695d5bf971887f7413a.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/671029c3e86ccb0d2c252e062f352c2269e2073c20b5b520a95999e037943433.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "From Charles Cecil, creator of the Broken Sword series, with art direction by Dave Gibbons, legendary comic book artist behind ‘Watchmen’, comes ‘Beyond a Steel Sky’, the long awaited sequel to the cult classic ‘Beneath a Steel Sky’. \r\n \r\n‘Beyond a Steel Sky’ is a dramatic, humorous, cyberpunk thriller in which engaging puzzles drive a fast-paced narrative set in a dynamic gameworld that responds to – and is subverted by – the player’s actions.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Adventure",
+					"Indie",
+					"Puzzle"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "Beyond a Steel Sky",
+			"canRunOffline": true,
+			"is_mac_native": false,
+			"is_linux_native": true
+		},
+		{
+			"runner": "gog",
+			"developer": "3D Realms, One More Level, Slipgate Ironworks",
+			"app_name": "1957528513",
+			"art_cover": "https://images.gog.com/581860dc4ccb6b7922dffe33d6f03f5a93337d2efc364828e938a9659cca0997.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/c22ac0283f670cbb8ba887ae220f0dc8df9356a91aaa7a3b8d2c40b2cfa7088d.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/4189cb24cffd014efe01df71d3cb6bade85455df83736686eed94893986d42b0.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/28e94b1ca9af63c08c0d68b0241ec13cd9ea9f1dcd9b3b0acbf5ab5eee48a4b5.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "Ascend humanity’s last remaining shelter, a great tower-city. The tower is torn by violence, poverty and chaos. Conquer your enemies, discover the secrets of the superstructure and your own origin and obtain the power to challenge The Keymaster.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Adventure",
+					"Platform",
+					"Shooter"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "Ghostrunner",
+			"canRunOffline": true,
+			"is_mac_native": false,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"developer": "Adeline Software International",
+			"app_name": "1207658974",
+			"art_cover": "https://images.gog.com/c39904873a1811067499c32eb005c92fe5b4b38c2029cc47d1af36e96cfdccf2.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/4dc45cfaf51417743287a9b5daf28e849d3eac349f366e45c46db2b35d9fcf9c.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/30e5330601722ac5274628a3790e8636c101c1757a45062025c1b29d8cd380ef.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/8b268db0a68a9b4961f2087bcb09fbb784beb815df663ec34ba3f6db3b1712f5.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "The world of Twinsun is in peace after the young Quetch Twinsen defeated the evil Dr. FunFrock. New trouble arises when aliens land on the planet and strange things start to happen. Who are these Esmers? Are they friend or foe? Twinsen needs to grab his Magic Ball and investigate. With help from his friends and fiancée Zoé, he needs to level up his magic, fly into space and uncover ancient mysteries to save his planet once again.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Role-playing (RPG)",
+					"Adventure",
+					"Platform",
+					"Puzzle"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "Twinsen's Little Big Adventure 2 Classic",
+			"canRunOffline": true,
+			"is_mac_native": true,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"developer": "Black Isle Studios",
+			"app_name": "2",
+			"art_cover": "https://images.gog.com/20ba0c7ca5cd32307d2428f9c12d3b8050bf1c6a88b169207923b399ac4baafe.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/d3fc7adecd55ab1d4351a9f5da6a70c4f3c8d6a0bc67e07a12e9c42fb85343e6.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/e9e434d59b4c938c96fbfe9da7a5fa732f5f627934bf92b56cd9a8627fc25beb.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/b4e8e399a785a5c58bc44d1f9317202c9e2610dfff3ecf6f1c63b670c5613d93.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "A turn-based tactical Western RPG in which the Chosen One is tasked with exploring post-nuclear California to locate and retrieve the fabled Garden of Eden Creation Kit for their famine-stricken tribe, while coming into contact through branching dialogue trees with numerous tribes, factions and micro-civilizations, each with their own virtues, vices, socioeconomic situations and political agendas.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Role-playing (RPG)",
+					"Turn-based strategy (TBS)",
+					"Puzzle"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "Fallout 2 Classic",
+			"canRunOffline": true,
+			"is_mac_native": true,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"developer": "Revolution Software, Sumo Digital",
+			"app_name": "1207658973",
+			"art_cover": "https://images.gog.com/c9eddd772b999fba65bbd0c028aaddffc2beee136d6f217d59a0c278b20673d2.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/8058e959063faf0a9e30f82b4974b63cf1694855a52e382bde133405cb438384.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/55176b0f61a980a1b2b1aa7409eef26031815b8130c1097f1bbda40c9839edc0.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/8058e959063faf0a9e30f82b4974b63cf1694855a52e382bde133405cb438384.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "Secrets of the Ark: A Broken Sword Game returns to its roots by reintroducing point-and-click-based mouse control next to keyboard control, although still relying on a full 3D engine with fixed camera perspectives. A few puzzles are still action-based, but you are now given more time to act in stressful situations, rather than having to make split-second decisions. Next to the regular puzzles, you need to investigate images, texts and clues in the central manuscript as the story progresses.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Adventure",
+					"Indie",
+					"Puzzle",
+					"Point-and-click"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "Broken Sword 4: The Angel of Death  (2006)",
+			"canRunOffline": true,
+			"is_mac_native": false,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"developer": "Thunderful",
+			"app_name": "1827430975",
+			"art_cover": "https://images.gog.com/941d904f9a878d0c71607985214938adf75541dcdfe3f9811f7bb364685cd53d.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/184ef6a5b433a8a6d2c18c16e7a67a8d269e386717032b9afad56f6fcb3b4737.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/f37f5e6fdb8a3c526a2bafaefcd450737718e5e41fdee8cf4c39e2db5a27e63e.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/bfe9fb1b2a68042c3ec2ee87de16ef1ab9b8e438c5949818d7ce220c5b576247.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "Wavetale is a story driven, third-person action-adventure platformer, set in an island world built atop the remains of a once magnificent city. Player takes on the role of Sigrid, a headstrong girl who gains the ability to run on water through the help of a mysterious shadow. Wavetale offers a tight-knit story combined with a charming art style and delightful soundtrack and invites players to explore its world through its fast-flowing gameplay, where traditional platforming elements meet a unique surfing experience on a dynamic ocean. The intuitive controls make Wavetale accessible and family friendly, while at the same time encouraging mastery as the player will need to understand the full range of movement. Guide Sigrid through the archipelago as the calamity that once sunk the city once again looms on the horizon.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Adventure",
+					"Platform"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "Wavetale",
+			"canRunOffline": true,
+			"is_mac_native": false,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"developer": "Obsidian Entertainment",
+			"app_name": "1242541569",
+			"art_cover": "https://images.gog.com/3181766f88e44dc752a75132fccfe91e12af9030b2feffc4c5591c1b7b6fe6b5.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/9df2f12e6bcace0b065e5ad18ee41cb8f498573fddeef99742da93bab1770ffe.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/b9c7a3b16f80b1954075f97b1a0cf780ba03d7437f69e85068846cbb7759810a.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/aa19797f0bd02195753d7152db811245a86c3b066d9b8a4fc3c86e050f3358a6.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "The Outer Worlds is a new single-player sci-fi RPG from Obsidian Entertainment and Private Division. As you explore the furthest reaches of space and encounter a host of factions all vying for power, who you decide to become will determine the fate of everyone in Halcyon. In the corporate equation for the colony, you are the unplanned variable.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Role-playing (RPG)",
+					"Adventure",
+					"Shooter"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "The Outer Worlds",
+			"canRunOffline": true,
+			"is_mac_native": false,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"developer": "Daedalic Entertainment, Forgotten Key",
+			"app_name": "1509324336",
+			"art_cover": "https://images.gog.com/30dcde7c33b1160d5d65f5fc5ad1f1ada624f45222a8e8a97487c219693b2bc0.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/3fe2a60891d8071c8e004e41cdaa05ccb8960fc46e35fadf8543ef375fd59e59.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/d301a4613ccfd29484848ce062b1ec65114e5f302f680ed16639560760cb43e5.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/edd05bcfdaa92aa02b32d0fd0724fa0d86da1c5014dc5df471a99426e0d22dad.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "Transform into a bird and fly to explore and experience a vibrant world of floating islands in the sky. Venture down into lost ancient ruins where each step leads you closer to the end of the world.\n\nAER puts you in the shoes of Auk, a magical shape-shifting girl who can transform between human and bird.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Adventure",
+					"Indie",
+					"Puzzle"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "AER – Memories of Old",
+			"canRunOffline": true,
+			"is_mac_native": true,
+			"is_linux_native": true
+		},
+		{
+			"runner": "gog",
+			"developer": "SIE Santa Monica Studio",
+			"app_name": "1074905459",
+			"art_cover": "https://images.gog.com/3d650793216644cbc717d58e6db250f8f18c5fdbb0ceb7731abce3d7e06bea1a.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/ce4058153765dd9ee86fb13d7d83dca8b3dea327184272eba992640b30b1bb7b.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/544a2c4b4638428f42a2e75c38b68009cb3a700c5500fed0e8e8b4b92ef8cc3d.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/67655e7d9ebab4692b9098b83f2c620425d8924c6f827cb5cad05263af4fec83.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "His vengeance against the Gods of Olympus years behind him, Kratos now lives as a man in the realm of Norse Gods and monsters. It is in this harsh, unforgiving world that he must fight to survive… and teach his son to do the same.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Role-playing (RPG)",
+					"Adventure",
+					"Hack and slash/Beat 'em up"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "God of War",
+			"canRunOffline": true,
+			"is_mac_native": false,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"developer": "LucasArts",
+			"app_name": "1425299904",
+			"art_cover": "https://images.gog.com/7fd5994bb10dfcc1b326fdc20200584b07c89a526ea62412899769b9255c776d.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/f1603cfe05c480b282daaa0ed7944e0bb4fa6ad26f780790b745f55d85f9955a.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/6204a7bfc7d5fd17a00f8d0044c003edba17930410cc65e887e3c4bc05410280.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/babbe0e5b20d5f4f5dcb0ce56bf219d85232b230cf1e52a4a3d49b4bb91c09ab.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "In the dead of space, something is alive. \r\n \r\nA deep space adventure by Sean Clark in collaboration with filmmaker Steven Spielberg. \r\n \r\nYou've saved the Earth from Total Destruction. Now, Can you save yourself? \r\n \r\nAn asteroid the size of a small moon is on a crash course toward Earth, and only NASA veteran Boston Low has the expertise to stop it. Along for the ride are award-winning journalist Maggie Robbins and internationally renowned geologist Ludger Brink. \r\n \r\nOnce the wayward asteroid is nuked into a safe orbit, the trio conducts a routine examination of the rocky surface. \r\n \r\nWhat they uncover is anything but routine. \r\n \r\nLow, Brink and Robbins unwittingly trigger a mechanism that transforms the asteroid into a crystal-like spacecraft. The team is hurled across the galaxy to a planet so desolate, Brink is moved to name it Cocytus, after the 9th circle of Hell in Dante's Inferno. The bleak landscape was obviously once home to a highly enveloped civilization, with remnants of sophisticated architecture, advanced technology and an intricate network of underground tunnels. \r\n \r\nBut no Cocytans. \r\n \r\nWho were the original inhabitants of this once rich empire-turned-wasteland? What are those apparitions that mysteriously appear from time to time? Why have Low, Robbins and Brink been brought to this place? And how can Low keep his team from unraveling in the face of such uncertainly? To return to Earth, the must dig for answer, both on the planet's surface and deep within themselves. \r\n \r\nFrom the combined talents of LucasArts and legendary filmmaker Steven Spielberg comes an epic adventure that plunges headlong into the very core of the unknown. And takes you with it.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Adventure",
+					"Puzzle",
+					"Point-and-click"
+				]
+			},
+			"folder_name": "The Dig",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "The Dig®",
+			"canRunOffline": true,
+			"is_mac_native": true,
+			"is_linux_native": true
+		},
+		{
+			"runner": "gog",
+			"developer": "Modern Storyteller",
+			"app_name": "1231956919",
+			"art_cover": "https://images.gog.com/4a8f004759fbb45976d08adef40f8b3cbb0a93089188f4998ef740cfef87124d.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/08eb557d99d4fac5a8a41aa51268e97af9d424116267a2c48bd4e5b53d69ba1a.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/5ef9bb244635d784c999df8b94ae955202347102ec55e1cee7f02e329c3cc236.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/37d4badef31bc8d5ee26c8164e65de5b5ddca6bc963ebf2b298bbc5aa02ce6a3.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "The Forgotten City is a time travel murder mystery set in a mythological city.\r\n\r\nDeep underground in an ancient Roman city, twenty-six trapped explorers lay dead because one of them broke a mysterious law. Within, a portal leads back into the past, allowing you to change their fate – or witness their deaths in a time loop for eternity.\r\n\r\nFortunately, hope remains. The Forgotten City offers incredible freedom, inviting you to manipulate the timeline, Groundhog Day-style, so events play out differently. By talking with diverse characters, making tough choices in moral dilemmas, and thinking laterally, you can unlock vastly different endings.\r\n\r\nThe Forgotten City is a game about the human condition, for adults who enjoy figuring things out for themselves.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Role-playing (RPG)",
+					"Adventure",
+					"Indie"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "The Forgotten City",
+			"canRunOffline": true,
+			"is_mac_native": false,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"developer": "BioWare, BioWare Edmonton",
+			"app_name": "1207658886",
+			"art_cover": "https://images.gog.com/fc71c53ec638839dfe00692e658af6640b256dd1f43bb6a664c6bfe27fa2e18b.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/63a017e35c0a7e5dd8992cb21585a195d5056c5da78710228a407a9a717b59e1.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/41b1cc0211b506a5576bc9755c88e46e28dc6754a843851f04dd22308ea51fb1.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/63a017e35c0a7e5dd8992cb21585a195d5056c5da78710228a407a9a717b59e1.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "Baldur's Gate is a fantasy role-playing video game developed by BioWare and published in 1998 by Interplay Entertainment. It is the first game in the Baldur's Gate series and takes place in the Forgotten Realms, a high fantasy campaign setting, using a modified version of the Advanced Dungeons & Dragons (AD&D) 2nd edition rules. It was the first game to use the Infinity Engine for its graphics, with Interplay using the engine for other Forgotten Realms-licensed games, including the Icewind Dale series, as well as other licensed D&D campaign worlds such as Planescape: Torment. The game's story focuses on players controlling a protagonist of their own creation who finds themselves travelling across the Sword Coast alongside a party of companions, to unravel the mystery surrounding a sudden iron crisis affecting the region and attempting to discover the culprits behind it, all while uncovering dark secrets about their origins and dealing with attempts on their life.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Role-playing (RPG)"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "Baldur's Gate: The Original Saga",
+			"canRunOffline": true,
+			"is_mac_native": true,
+			"is_linux_native": true
+		},
+		{
+			"runner": "gog",
+			"developer": "Sierra On-Line",
+			"app_name": "1207658837",
+			"art_cover": "https://images.gog.com/f92e4afd0d5d1ca7535680197602aa0b125323457e5aec99918190a385a99b93.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/a6a7c1c9f321098d5a42c277a4d9260348d91e732187177cb6d0a72a244475a9.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/aa7fcce05a0995d6656993cb84d530087f2aa7fa7bc47925d53d85b0f1c980e9.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/a6a7c1c9f321098d5a42c277a4d9260348d91e732187177cb6d0a72a244475a9.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "Play as both Gabriel and Grace as they are dispatched to Munich to solve a series of mutilation murders thought to be the work of werewolves.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Adventure",
+					"Point-and-click"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "Gabriel Knight 2: The Beast Within",
+			"canRunOffline": true,
+			"is_mac_native": false,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"developer": "Daedalic Entertainment",
+			"app_name": "1207659150",
+			"art_cover": "https://images.gog.com/6c59d0e6194b9f727dab926cb411a68b9ec2711f177e14e76ca507eb54669921.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/146272c83cfee9579d69a8452d17cf6b3cea6fcd5e0b2ec88c1b10a165c9c64f.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/17f2fa74b1743628542707a3d5e74baabdbdd77c98342f36b4fcaa29a56ee5a6.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/c4dd8c85112add3d6295d549e6a189331e07a273d5954704654577756fe9a4dd.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "A New Beginning is a cinematic adventure-thriller done graphic novel-style.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Adventure",
+					"Indie",
+					"Puzzle",
+					"Point-and-click"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "A New Beginning: Final Cut",
+			"canRunOffline": true,
+			"is_mac_native": true,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"developer": "CD Projekt RED",
+			"app_name": "1207658924",
+			"art_cover": "https://images.gog.com/3a4d9190f3c0a0a8d63638193ef8c9af2ba58eb0b250295db2a28bccf852a76d.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/7fbb815727527616881cb45a56f51a19e90ddf21ba00c9e22b4852d9bec6324a.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/fc1c44b2252e3200db66872630f7e21687bba217b6eabb188451556b5941cf63.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/7fbb815727527616881cb45a56f51a19e90ddf21ba00c9e22b4852d9bec6324a.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "Now you can experience this fantastic RPG on Mac and PC!",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Role-playing (RPG)"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "The Witcher: Enhanced Edition",
+			"canRunOffline": true,
+			"is_mac_native": true,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"developer": "Night Dive Studios",
+			"app_name": "1207658767",
+			"art_cover": "https://images.gog.com/23d933227d3a6a3d710446b6ff36b9703b71950d83976d7677fde82b4805edf4.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/f76578f92dbefb6b44c5d49c3f0a79217322e959603c3f9077dbb4c6792d8b60.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/cbb14b0965a22f3b1e47433952c7e42d8172f70d904a15676eddc4c2abb6ca6f.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/7da515af8e0c392b4ef380ec4ed84371517a51f4c7222b13b1598d3dd507c5a2.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "Enter the virtual world of Under A Killing Moon, where it is December 2042, and you, as Tex Murphy, must stop the forces of evil before they destroy mankind and rob you of your next unemployment check. This thrilling and hilarious adventure is unlike anything you've seen before.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Adventure"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "Tex Murphy: Under a Killing Moon",
+			"canRunOffline": true,
+			"is_mac_native": true,
+			"is_linux_native": true
+		},
+		{
+			"runner": "gog",
+			"developer": "Revolution Software",
+			"app_name": "1207658708",
+			"art_cover": "https://images.gog.com/bfba11f7975ae58dbca4b5179953ff45f19516928c7a3c9339354a5eed21febc.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/4bc6e62878f0cb836e6c9f4a2bbbea277ac6376a3c105f8edc8fc2e8207a356a.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/87945fdbd8dad7a1d9b1e268962b6f3721cac3febfaa03e667645aca561a9f87.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/32a1f0649fb365e8da60d388a345c628a39833eab87dbb333aa8c4b7339a98ef.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "Broken Sword: The Sleeping Dragon moves away from the 2D point-and-click concept from the earlier games and features a full 3D world, with a camera that does not rotate, but uses fixed cinematic perspectives, combined with full 5.1 sound. For the Windows version the game is no longer controlled through the mouse, but now through the keyboard, for the movement of the characters as well as all the actions.\n\nThe player alternately controls George or Nico. Next to typical adventure gameplay such as exploration, conversations, and searching and combining items, there are also a few action sequences. The characters can duck, sneak, hang from ledges and move crates to reach higher areas.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Adventure",
+					"Puzzle",
+					"Point-and-click"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "Broken Sword 3: The Sleeping Dragon (2003)",
+			"canRunOffline": true,
+			"is_mac_native": false,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"developer": "Team17",
+			"app_name": "1207659104",
+			"art_cover": "https://images.gog.com/8aa3a365970b5839fc2b3d2f8a654488814e867eaff262c54cad96b96323a0a7.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/43dab244c603bed5be0578c8f77f5193350b3073810cc94c36bc8db339910de6.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/6a5b1d8d2fac19010cdd5d7eae5fb221c1c0fc394e9681b41503d2029f09c16c.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/64ef0a300d11b923e61e75b7665f163ea0834f3acdbb0946ceeee49cdfce4819.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "Worms 2 is a turn-based strategy game, with each team moving in a randomly determined sequence across two-dimensional terrain. During a single turn, a team can only move one of its worms. Worms can crawl and jump, as well as swing by ninja-rope, parachute, teleport, and bungee when the appropriate items are available. The objective of a traditional match or campaign mission is to defeat all opposing teams by killing their worms. When hit with a weapon, the worm will lose health depending on the power of the weapon and the directness of the hit. A worm can be killed either by having its health reduced to zero or being knocked into the water around and below the level.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Strategy",
+					"Platform",
+					"Shooter"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "Worms 2",
+			"canRunOffline": true,
+			"is_mac_native": false,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"developer": "Gravity Europe SAS",
+			"app_name": "1407755702",
+			"art_cover": "https://images.gog.com/3b91dd57b2e17c593dae8128a504ab524aed72c4970fc0cc7f0f50d2b2e10167.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/056a6aa929467bf5ca783d2ee2f8745bedc7e110689cc4422520eb9aad5a6c1f.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/76b6f2ed7b8501b85361b35218e345f075ab2b74fb4a72e658d09d06400d691a.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/9e414bba24627421e55c3e49796360bf71682ae4f2754e67313fccece27413b4.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "tA historical fiction based on the life and works of Nostradamus. This first-person, point-and-click adventure will defy logic.\n\nThe art of cross-dressing. Madeleine must confront the prejudice of a “man’s world”. Her father’s mastery of cosmetics allows her to take on the identity her younger brother, Caesar. Toggle between identities to uncover the truth.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Adventure"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "Nostradamus: The Last Prophecy",
+			"canRunOffline": true,
+			"is_mac_native": false,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"developer": "Animation Arts, Fusionsphere Systems",
+			"app_name": "1131357530",
+			"art_cover": "https://images.gog.com/6c8b307ec6bc45dd84fc1519575a1584b8983eef59f616c2136631c4ebc944ca.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/5dc2b669df268e70e2c09ec36919513d422f612800016b29a8b8f155a73923db.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/cbfcb56c0b1649ddcd448d51bf3efda9584b4d973c58167d39dd7a6a483348f3.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/e00150f7d501094cb5082708aa0daaa31763e51811aa4c82fa67ea0ccc5b45ea.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "Unravel one of the greatest mysteries of our time! On the 30th June 1908 an explosion with the combined energy of 2000 Hiroshima bombs rocked the region of Tunguska in Central Siberia and felled over 6,000 square km of trees. The explosion could be heard from as far as 1,000km away.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Adventure",
+					"Point-and-click"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "Secret Files: Tunguska",
+			"canRunOffline": true,
+			"is_mac_native": false,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"developer": "Ryu ga Gotoku Studios, Sega Games",
+			"app_name": "1103602225",
+			"art_cover": "https://images.gog.com/86b4b54037e86aa04b39b873dffc1118891a029635c879df4cea7bab9a2760f9.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/4febbe661331154c99c2be816b3512e88cec9562c417da0e74fa30852d2f67c8.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/1b57f4bb3a0ce35f0d1652bb81fa64f0054c424007223396e8993e9ff46beb9e.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/a4d16f84fa7246a4fe6964c552c5ab95b99bd4871e3aec8dac753d6f2b884cd5.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "The glitz, glamour, and unbridled decadence of the 80s are back! Yakuza 0 is a prequel set in 1988 to the Yakuza series, taking place before the first game. Fight like hell through Tokyo and Osaka with protagonist Kazuma Kiryu and series regular Goro Majima. Play as Kazuma Kiryu and discover how he finds himself in a world of trouble when a simple debt collection goes wrong and his mark winds up murdered. Then, step into the silver-toed shoes of Goro Majima and explore his “normal” life as the proprietor of a cabaret club.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Role-playing (RPG)",
+					"Adventure",
+					"Simulator",
+					"Hack and slash/Beat 'em up"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "Yakuza 0",
+			"canRunOffline": true,
+			"is_mac_native": false,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"developer": "House of Tales",
+			"app_name": "1448280389",
+			"art_cover": "https://images.gog.com/25b6294c9d7049b99ecb37191d28afff783ca2a5abdfdcc02aad244824f3d7d0.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/0b5904ba5ba05c7186cb1854baf3477ad070d74fc7b7f14e038fbcc146cbb3f4.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/f29fcea21421041754f1c69b58ce5dd7cf31c1640745da4115fb2d0defa44717.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/0b5904ba5ba05c7186cb1854baf3477ad070d74fc7b7f14e038fbcc146cbb3f4.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "The Moment of Silence is a classic point-and-click 3rd person adventure game set in New York City in 2044. Players step into the role of Peter Wright, an advertising executive currently heading up the Government's 'Freedom of Speech' campaign.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Adventure",
+					"Indie",
+					"Point-and-click"
+				]
+			},
+			"folder_name": "The Moment of Silence",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "The Moment of Silence",
+			"canRunOffline": true,
+			"is_mac_native": false,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"developer": "Shedworks",
+			"app_name": "1928501328",
+			"art_cover": "https://images.gog.com/2da71adf55ae876ac35f4795f78e9163295a6d58f4b462cd0d4422ad79dc1f9b.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/a40624d0956cb30c1ee23deb349de75aacc2d26b63747a7d6d2d0d2b13748603.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/b66e2e4c0db1ce671c406d7137cad3c55fe9369bb0595c2cf6c9d00916d9c89f.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/3abe9d6244238d1567629ec22d8508a14cb19739571b51e59795ab6a3d198331.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "Sable is a coming-of-age tale of discovery through exploration across a strikingly rendered open world desert. Go on a deeply personal journey across an alien planet while learning its history and discovering Sable’s place in the world.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Role-playing (RPG)",
+					"Adventure",
+					"Indie",
+					"Platform",
+					"Puzzle"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "Sable",
+			"canRunOffline": true,
+			"is_mac_native": false,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"developer": "Askiisoft",
+			"app_name": "1557080015",
+			"art_cover": "https://images.gog.com/51cf0229cbb93b6aa9e8ef089649bf7deef3acf9c25753696b553bbf8ac0f7cb.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/e1aa51f2a4762b6706efedf94b5f43af1883c50829dc2e2c4940cc44496e4258.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/de340d861d1fbe69db03ed2a6bbad90a74a7d717ba9ab8a5a65c267fa1a204da.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/ecf6e3d48b35251678d71f0648b373c236ac2d380a91846b4ed21266f5d84858.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "Katana Zero is a fast paced neo-noir action platformer, focusing on tight, instant-death acrobatic combat, and a dark 80's neon aesthetic. Aided with your trusty katana, the time manipulation drug Chronos and the rest of your assassin's arsenal, fight your way through a fractured city, and take back what's rightfully yours.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Adventure",
+					"Strategy",
+					"Indie",
+					"Platform",
+					"Arcade"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "Katana ZERO",
+			"canRunOffline": true,
+			"is_mac_native": true,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"developer": "Cunning Developments",
+			"app_name": "1207658737",
+			"art_cover": "https://images.gog.com/9ab2c12df42987417c4d7f09a8cfa2514da3898d2fae5e1dbff2db14ed55893d.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/268db770ef2a672da0a263c065ddb9a15aad1d821b226003765c1a519ab801f9.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/7cb427db1cf76948c5b3deba122a56d3da22f59bbabf53c2a2e75b96a918c51c.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/268db770ef2a672da0a263c065ddb9a15aad1d821b226003765c1a519ab801f9.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "Timeshock! is a 1997 pinball computer game developed by Cunning Developments and published by Empire Interactive. It is the second game in the Pro Pinball series, and is themed around the concept of time travel. \r\n \r\nThe inclusion of a time machine fixture on the table facilitates the game's time travel theme. At any one time the player is in one of a handful of time zones, the main ones being: The Present Day, The Distant Future, Ancient Rome and The Prehistoric Age. Completion of certain objectives allows the player to travel between time zones (although some must be unlocked first, by means of completing secondary objectives). \r\n \r\nAlthough the basic method of playing is persistent across time zones, the details of particular awards and objectives are themed towards the current time, for example, you might be awarded with a ray gun in the future, whilst in the present day you might be awarded with a magnet. This provides variety, and helps facilitate a wider set of goals.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Arcade"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "Pro Pinball Timeshock",
+			"canRunOffline": true,
+			"is_mac_native": false,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"developer": "Sir-tech Software, Madlab Software",
+			"app_name": "1207658690",
+			"art_cover": "https://images.gog.com/3b6c2d3ef1939c6937d710e3f8dff5bc7d18673a85b22857b6b5732e0e91bf7e.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/d6129b5723e3aa0c61317b807805a31c691488a69a55b0c6db6beb23e069e77c.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/b5fbc6fc1e11b2f6fe7545211a924ec810b7e097889d1e3d23335679bc835310.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/c4da69670c2e80daf1ff3acdc84b743427a5ba4f4447fcc85e405efa405e5bc8.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "The enemy is on the run. One more mortar shell should take them out. Still, you have to blow up the bridge by sundown, and Postie is starting to talk to himself again. Maybe you shouldn't let him keep that dynamite...\r\n\r\nMore ways to play. Play the new solo campaign or choose multiplayer mode via your network connection. More power. The included scenario editor provides infinite replay ability. Create your own maps, traps and enemies. Use the campaign editor to create your own deadly games. More mercenaries. Choose from 70 different mercs, including 10 new ones - plus all 60 of the original Jagged Alliance mercs. More weapons. Fun new war toys include mortars, grenade launchers, boobytrap kits and more! More terrain. Skirmish through jungles, deserts, towns and frozen wastelands.\r\n\r\nAnd more attitude than ever!",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Role-playing (RPG)",
+					"Strategy",
+					"Tactical"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "Jagged Alliance: Deadly Games",
+			"canRunOffline": true,
+			"is_mac_native": false,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"developer": "MumboJumbo, BioWare, BioWare Edmonton",
+			"app_name": "1207658893",
+			"art_cover": "https://images.gog.com/e4b52274e803b5f27f39489dbb48a24c2911a7581a6f25f30a37d1df0f2d5bc5.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/ffb26530ea7fb2cd0948d04ec6d3bd647a48494f7ae96ee9e32e04abdde40e4d.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/b6be75d1a51c1236ca38e32d841e8e52f1bff959365395565fd6fdf9fafe0a5b.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/ffb26530ea7fb2cd0948d04ec6d3bd647a48494f7ae96ee9e32e04abdde40e4d.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "Every World has conflict. Good and evil. Friend and foe. Safety and danger. In Baldur's Gate II: Shadows of Amn, you'll find yourself between these factions. This epic sequel to the Roleplaying Game of the Year will immerse you in a world of intrigue, adventure and fierce combat where your ability to discern the difference between these sides - with the assistance of steel and spell - determines your fate. Set in the Forgotten Realms campaign setting, Baldur's Gate II is the most stunning Advanced Dungeons and Dragons game to date.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Role-playing (RPG)"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "Baldur's Gate 2 Complete",
+			"canRunOffline": true,
+			"is_mac_native": true,
+			"is_linux_native": true
+		},
+		{
+			"runner": "gog",
+			"developer": "Deck13 Interactive",
+			"app_name": "1345182195",
+			"art_cover": "https://images.gog.com/a1c0384382767e859cdb6d9bad0088da3d25342b5ff3fc381d9a48d5fd6c0df8.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/3b7fafc43e5af3151e9b0273eac1c6f95e4d43c1b327fe7cd20be63f838ebe6a.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/3d5851ad3902bf7c1bae2ada0ad90f5c3db3fab8944ba2bedcff7b23f09c55c4.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/63c10a759dfa710c3f952a930b0b6b7e99b59221012f17923c0053f0c3dfb91e.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "In a fantastical Venice, The Corpus are deceived by a cunning necromancer. Transformed into an undead fiend, the conniving imposter is hell-bent on destroying the reinstated Death and the council of Corpus. Only Scarlett, the daughter of Death, can stand in his way.\nKnowing nothing of her destiny at first, Scarlett has to learn about her special powers and become a mighty warrior, strong enough to defeat the greatest threat to the world of the living.\nShe must master her incredible supernatural powers and capabilities, in order to save her father and curse the necromancer and his gruesome henchmen to the eternal hereafter.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Role-playing (RPG)",
+					"Adventure",
+					"Indie"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "Venetica - Gold Edition",
+			"canRunOffline": true,
+			"is_mac_native": false,
+			"is_linux_native": false
+		},
+		{
+			"runner": "gog",
+			"developer": "inXile Entertainment",
+			"app_name": "1958306970",
+			"art_cover": "https://images.gog.com/dda078d24ff34f298200feac70298a69d21f1c3a3906796680716fe3e1d59be2.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/44a861a92d7332e97ed97389334c4dc39eef5016a96e2d5b3ce045339082ef2b.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/135433f07775188c0e840af26695737337c805419ea6c8a3d72a74fdc32ffd22.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/16c2ebd6d057035d0c269b933682a93f252ebccee2aa5f5ba58eda8adb066857.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "Torment: Tides of Numenera is a game set in the world of Monte Cook's new tabletop RPG setting, Numenera. Torment continues the thematic legacy of Planescape: Torment, the critically acclaimed role-playing game from 1999 that's considered by many to be a hallmark for storytelling in computer RPGs. With Torment, we're creating a rich role-playing experience that explores similar deep, personal themes.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Role-playing (RPG)",
+					"Adventure",
+					"Strategy"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "Torment: Tides of Numenera",
+			"canRunOffline": true,
+			"is_mac_native": true,
+			"is_linux_native": true
+		},
+		{
+			"runner": "gog",
+			"developer": "Black Isle Studios",
+			"app_name": "1207658887",
+			"art_cover": "https://images.gog.com/bd9ab5a436876f92cad20c63b038c6bb9530de3c0c0970d21ad830b731dccd90.jpg?namespace=gamesdb",
+			"art_square": "https://images.gog.com/d0c385e3f87ff71fa6fbaaced378f8d7458690d7dd3324bf503379317c51ea8d.jpg?namespace=gamesdb",
+			"art_background": "https://images.gog.com/100e3bd7ab060c94003f8560d0540d6f5cd14e40923562aae016a5798af5cadf.webp?namespace=gamesdb",
+			"cloud_save_enabled": false,
+			"art_icon": "https://images.gog.com/7ed8eeedccf4cf1695b4463c209f01458c13e310e8c0e6703912b41146390c3d.jpg?namespace=gamesdb",
+			"extra": {
+				"about": {
+					"description": "A CRPG set in the Dungeons & Dragons setting of Planescape in which The Nameless One, an immortal amnesiac, sets off on a quest across the infinite Planes and gathers a party of conflicted companions to find out who he is and reclaim his mortality. Throughout it, he faces the consequences of the horrors he committed in his past lives and tries to find the root of all the torment plaguing his companions and the Planes.",
+					"shortDescription": ""
+				},
+				"reqs": [],
+				"genres": [
+					"Role-playing (RPG)",
+					"Strategy",
+					"Puzzle"
+				]
+			},
+			"folder_name": "",
+			"install": {
+				"is_dlc": false
+			},
+			"is_installed": false,
+			"save_folder": "",
+			"title": "Planescape: Torment",
+			"canRunOffline": true,
+			"is_mac_native": true,
+			"is_linux_native": true
+		}
+	],
+	"__timestamp": {
+		"games": "Thu Dec 26 2024 15:22:51 GMT+0000 (Greenwich Mean Time)"
+	}
+}

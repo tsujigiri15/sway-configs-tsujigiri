@@ -1,0 +1,77 @@
+Launching "The Moment of Silence" (gog)
+Native? No
+Installed in: /home/tom/Games/Heroic/The Moment of Silence
+
+System Info:
+CPU: 4x Intel(R) Core(TM) i3-3227U CPU @ 1.90GHz
+Memory: 3.98 GB (used: 887.28 MB)
+GPUs:
+  GPU 0:
+    Name: Intel Corporation 3rd Gen Core processor Graphics Controller
+    IDs: D=0166 V=8086 SD=90b8 SV=104d
+    Driver: i915
+OS: CachyOS Linux 6.12.6-1-cachyos (linux)
+
+The current system is not a Steam Deck
+We are not running inside a Flatpak container
+
+Software Versions:
+  Heroic: 2.15.2 Emeth
+  Legendary: 0.20.36 Urban Flight (Heroic)
+  gogdl: 1.1.2
+  comet: comet 0.1.2
+
+  Nile: 1.1.2 Will A. Zeppeli
+
+Game Settings: {
+	"autoInstallDxvk": true,
+	"autoInstallDxvkNvapi": false,
+	"autoInstallVkd3d": true,
+	"preferSystemLibs": false,
+	"enableEsync": true,
+	"enableMsync": false,
+	"enableFsync": true,
+	"nvidiaPrime": false,
+	"enviromentOptions": [],
+	"wrapperOptions": [],
+	"showFps": false,
+	"showMangohud": true,
+	"useGameMode": false,
+	"battlEyeRuntime": true,
+	"eacRuntime": true,
+	"language": "en",
+	"beforeLaunchScriptPath": "",
+	"afterLaunchScriptPath": "",
+	"wineVersion": {
+		"bin": "/usr/share/steam/compatibilitytools.d/proton-cachyos/proton",
+		"name": "Proton - proton-cachyos",
+		"type": "proton"
+	},
+	"winePrefix": "/home/tom/Games/Heroic/Prefixes/default/The Moment of Silence",
+	"wineCrossoverBottle": ""
+}
+
+Game launched at: Thu Dec 26 2024 15:19:01 GMT+0000 (Greenwich Mean Time)
+
+Winetricks packages: 
+
+Launch Command: HEROIC_APP_NAME=1448280389 HEROIC_APP_RUNNER=gog GAMEID=umu-0 HEROIC_APP_SOURCE=gog STORE=gog STEAM_COMPAT_INSTALL_PATH="/home/tom/Games/Heroic/The Moment of Silence" LD_PRELOAD= STEAM_COMPAT_CLIENT_INSTALL_PATH=/home/tom/.steam/steam WINEPREFIX="/home/tom/Games/Heroic/Prefixes/default/The Moment of Silence" STEAM_COMPAT_DATA_PATH="/home/tom/Games/Heroic/Prefixes/default/The Moment of Silence" PROTONPATH=/usr/share/steam/compatibilitytools.d/proton-cachyos WINE_FULLSCREEN_FSR=0 PROTON_DISABLE_NVAPI=1 PROTON_EAC_RUNTIME=/home/tom/.config/heroic/tools/runtimes/eac_runtime PROTON_BATTLEYE_RUNTIME=/home/tom/.config/heroic/tools/runtimes/battleye_runtime STEAM_COMPAT_APP_ID=0 SteamAppId=0 SteamGameId="heroic-The Moment of Silence" PROTON_LOG_DIR=/home/tom /opt/Heroic/resources/app.asar.unpacked/build/bin/x64/linux/gogdl launch "/home/tom/Games/Heroic/The Moment of Silence" 1448280389 --no-wine --wrapper "/sbin/mangohud --dlsym "/usr/share/steam/compatibilitytools.d/proton-cachyos/proton" waitforexitandrun" --platform windows
+
+Game Log:
+[34mProtonFixes[9252] INFO: Running protonfixes[0m
+[34mProtonFixes[9252] INFO: Running checks[0m
+[34mProtonFixes[9252] INFO: All checks successful[0m
+[34mProtonFixes[9252] INFO: Using global defaults for UNKNOWN (0)[0m
+[34mProtonFixes[9252] INFO: No global protonfix found for UNKNOWN (0)[0m
+fsync: up and running.
+reg: The operation completed successfully
+fsync: up and running.
+MESA-INTEL: warning: Ivy Bridge Vulkan support is incomplete
+MESA-INTEL: warning: Ivy Bridge Vulkan support is incomplete
+[S_API] SteamAPI_Init(): SteamAPI_IsSteamRunning() did not locate a running instance of Steam.
+[S_API FAIL] SteamAPI_Init() failed
+MESA-INTEL: warning: Ivy Bridge Vulkan support is incomplete
+MESA-INTEL: warning: Ivy Bridge Vulkan support is incomplete
+MESA-INTEL: warning: Ivy Bridge Vulkan support is incomplete
+MESA-INTEL: warning: Ivy Bridge Vulkan support is incomplete
+============= End of log =============
