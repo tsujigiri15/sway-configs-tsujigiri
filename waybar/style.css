@@ -6,11 +6,11 @@
 
 #waybar { 
   background-color: transparent; 
-  color: #d3c6aa;
+  color: #ebdbb2;
 }
 
 .modules-left {
-background-color: #2f383e;
+background-color: #282828;
 margin-left: 8px;
 margin-bottom: 8px;
 padding: 0px 12px 0px 12px
@@ -36,74 +36,74 @@ background-color: transparent;
 
 #workspaces button {
 border-radius: 30px;
-background: #83c092;
+background: #689d6a;
 margin-left: 4px;
 margin-right: 4px;
-color: #2f383e;
+color: #282828;
 
 }
 
 #workspaces button.focused {
-background: #a7c080;
+background: #98971a;
 
 }
 
 #mpd {
 padding-left: 4px;
 padding-right: 4px;
-background-color: #2f383e;
+background-color: #282828;
 }
 
 #idle_inhibitor {
 padding-left: 4px;
 padding-right: 4px;
-background-color: #2f383e;
+background-color: #282828;
 }
 
 #pulseaudio { 
 padding-left: 4px;
 padding-right: 4px;
-background-color: #2f383e;
+background-color: #282828;
 }
 
 #power-profiles-daemon {
 padding-left: 4px;
 padding-right: 4px;
-background-color: #2f383e;
+background-color: #282828;
 }
 
 #backlight {
 padding-left: 4px;
 padding-right: 4px;
-background-color: #2f383e;
+background-color: #282828;
 }
 
 #battery {
 padding-left: 4px;
 padding-right: 4px;
-background-color: #2f383e;
+background-color: #282828;
 }
 
 #clock {
 padding-left: 4px;
 padding-right: 4px;
-background-color: #2f383e;
+background-color: #282828;
 }
 
 #custom-bluetooth {
 padding-left: 4px;
 padding-right: 4px;
-background-color: #2f383e;
+background-color: #282828;
 }
 
 #tray {
 padding-left: 4px;
 padding-right: 4px;
-background-color: #2f383e;
+background-color: #282828;
 }
 
 #custom-power {
 padding-left: 4px;
 padding-right: 4px;
-background-color: #2f383e;
+background-color: #282828;
 }

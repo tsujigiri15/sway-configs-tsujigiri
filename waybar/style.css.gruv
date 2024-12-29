@@ -35,13 +35,12 @@ background-color: transparent;
 }
 
 #workspaces button {
-border-radius: 0px;
+border-radius: 30px;
 background: #689d6a;
 margin-left: 4px;
 margin-right: 4px;
 color: #282828;
-border-left: 4px solid #282828;
-border-right: 4px solid #282828;
+
 }
 
 #workspaces button.focused {

@@ -15,7 +15,6 @@
     /* Theme settings */
     highlight: bold italic;
     scrollbar: true;
-
     font: "Liberation Mono 10";
 
     /* Gruvbox dark colors */
