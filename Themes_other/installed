@@ -1,5 +1,5 @@
 #Arch
-paru -S --needed rofi-power-menu brightnessctl ranger waybar swayidle swaylock grim slurp mako ncmpcpp rofi-bluetooth-git yewtube wttr imv network-manager-applet htop libnotify mpd atool pcloud-drive snes9x-gtk xdg-desktop-portal-wlr mupdf shotwell
+paru -S --needed rofi-power-menu brightnessctl ranger waybar swayidle swaylock grim slurp mako ncmpcpp rofi-bluetooth-git yewtube wttr imv network-manager-applet htop libnotify mpd atool pcloud-drive snes9x-gtk xdg-desktop-portal-wlr mupdf shotwell newsboat
 
 git clone https://github.com/xgi/castero
 cd castero

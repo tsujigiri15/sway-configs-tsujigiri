@@ -4,6 +4,7 @@ font=FantasqueSansMono-Normal:size=11
 [colors]
 background=2f383e
 foreground=d3c6aa
+alpha=0.95
 
 regular0=4b565c # black
 regular1=e67e80 # red

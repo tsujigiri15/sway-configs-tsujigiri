@@ -6,6 +6,11 @@ show-icons: true;
 icon-theme: "Gruvbox-Plus-Dark";
 }
 
+window {
+width: 33%;
+
+}
+
 listview {
 
 	enabled: true;

@@ -4,6 +4,8 @@ font=LiberationMono-Regular:size=10
 [colors]
 foreground=ebdbb2
 background=282828
+alpha=0.95
+
 regular0=282828 # black
 regular1=cc241d # red
 regular2=98971a # green

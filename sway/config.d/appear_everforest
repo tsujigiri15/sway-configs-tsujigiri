@@ -1,6 +1,6 @@
 # Appearance:
 
-output "*" bg /home/tom/Pictures/forest-warm.jpg fill
+output "*" bg /home/tom/Pictures/forest-hill.jpg fill
 
 font FantasqueSansMono-Regular 11
 exec_always {
