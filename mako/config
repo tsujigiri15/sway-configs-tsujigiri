@@ -1,8 +1,9 @@
-font=Fantasque Sans Mono Regular 11
-background-color=#2f383e
-text-color=#a7c080
+font=Eirian 11
+background-color=#091833
+text-color=#0abdc6
+border-color=#ea00d9
 border-size=2
-border-color=#83c092
+
 default-timeout=8000
 
 on-notify=exec mpv /usr/share/sounds/freedesktop/stereo/message.oga

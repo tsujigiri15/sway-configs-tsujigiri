@@ -1,9 +1,9 @@
 
-@theme "/usr/share/rofi/themes/everforest.rasi"
+@theme "/usr/share/rofi/themes/cyberpunk_neon.rasi"
 
 configuration {
 show-icons: true;
-icon-theme: "Gruvbox-Plus-Dark";
+icon-theme: "candy-icons";
 }
 
 listview {
