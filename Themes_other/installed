@@ -1,4 +1,4 @@
-
+#Arch
 paru -S --needed rofi-power-menu brightnessctl ranger waybar swayidle swaylock grim slurp mako ncmpcpp rofi-bluetooth-git yewtube wttr imv network-manager-applet htop libnotify mpd atool pcloud-drive snes9x-gtk xdg-desktop-portal-wlr mupdf shotwell
 
 git clone https://github.com/xgi/castero
@@ -7,3 +7,69 @@ sudo python setup.py install
 sudo rm -rf ~/castero
 
 paru -Rns wofi btop micro octopi alacritty
+
+
+### Fedora
+sudo cp ~/.config/Themes_other/rofi-power-menu /usr/bin
+sudo cp ~/.config/Themes_other/rofi-bluetooth /usr/bin
+sudo cp ~/Downloads/pCloud.img /usr/bin
+
+# coprs
+
+sudo dnf copr enable mmuzila/signal atim/heroic-games-launcher ilyaz/LACT
+
+#packages
+
+sudo dnf install brightnessctl ranger waybar swayidle swaylock grim slurp mako ncmpcpp curl imv network-manager-applet htop libnotify mpd atool snes9x-gtk xdg-desktop-portal-wlr mupdf shotwell vim fish mpv pipx util-linux-user signal gamemode mangohud steam lutris heroic-games-launcher-bin lact flatpak
+
+sudo dnf remove kanshi dunst Thunar
+sudo dnf autoremove
+
+# codecs
+
+sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+sudo dnf config-manager setopt fedora-cisco-openh264.enabled=1
+sudo dnf swap ffmpeg-free ffmpeg --allowerasing
+sudo dnf update @multimedia --setopt="install_weak_deps=False" --exclude=PackageKit-gstreamer-plugin
+sudo dnf swap mesa-va-drivers mesa-va-drivers-freeworld
+sudo dnf swap mesa-vdpau-drivers mesa-vdpau-drivers-freeworld
+sudo dnf swap mesa-va-drivers.i686 mesa-va-drivers-freeworld.i686
+sudo dnf swap mesa-vdpau-drivers.i686 mesa-vdpau-drivers-freeworld.i686
+sudo dnf install rpmfusion-free-release-tainted
+sudo dnf install libdvdcss
+
+# LACT
+
+sudo systemctl enable --now lactd
+
+# fish
+
+chsh -s /usr/bin/fish
+
+# wttr
+cd /tmp
+git clone https://github.com/cblte/bash-script-wttr
+cd bash-script-wttr
+bash installer.sh
+
+# yewtube
+
+sudo pipx ensurepath --global
+pipx install git+https://github.com/mps-youtube/yewtube.git
+
+# castero
+
+pipx install castero
+
+OR
+
+cd /tmp
+git clone https://github.com/xgi/castero
+cd castero
+sudo python setup.py install
+
+# Flatpaks
+
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+
+flatpak install com.simplenote.Simplenote org.duckstation.DuckStation us.zoom.Zoom

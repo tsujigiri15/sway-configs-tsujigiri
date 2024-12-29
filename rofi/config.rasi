@@ -1,6 +1,5 @@
 
-
-//@theme "/usr/share/rofi/themes/gruvbox-dark.rasi"
+@theme "/usr/share/rofi/themes/everforest.rasi"
 
 configuration {
 show-icons: true;
@@ -14,6 +13,4 @@ listview {
 	lines: 7;
 }
 
-//@theme "/usr/share/rofi/themes/everforest.rasi"
 
-@theme "/usr/share/rofi/themes/everforest.rasi"
