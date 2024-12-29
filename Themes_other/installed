@@ -45,6 +45,7 @@ sudo systemctl enable --now lactd
 # fish
 
 chsh -s /usr/bin/fish
+Move cachy os to .config/fish and point config.fish there
 
 # wttr
 cd /tmp
