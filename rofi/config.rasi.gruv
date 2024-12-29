@@ -1,0 +1,16 @@
+
+@theme "/usr/share/rofi/themes/gruvbox-dark.rasi"
+
+configuration {
+show-icons: true;
+icon-theme: "Gruvbox-Plus-Dark";
+}
+
+listview {
+
+	enabled: true;
+	columns: 2;
+	lines: 7;
+}
+
+

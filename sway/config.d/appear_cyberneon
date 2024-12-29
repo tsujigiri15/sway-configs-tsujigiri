@@ -1,0 +1,38 @@
+# Appearance:
+
+output "*" bg /home/tom/Pictures/numen_stone.jpg fill
+
+font Eirian-Regular 11
+
+exec_always {
+  gsettings set org.gnome.desktop.interface gtk-theme "materia-cyberpunk-neon"
+ gsettings set org.gnome.desktop.interface icon-theme "candy-icons"
+ gsettings set org.gnome.desktop.interface font-name "Eirian, 11"
+
+}
+
+# Set inner/outer gaps
+default_border normal 8
+gaps inner 8
+gaps outer 0
+
+# Smart gaps (gaps used if only more than one container on the workspace)
+#smart_gaps on
+
+# Smart borders (draw borders around container only if it is not the only container on this workspace)
+smart_borders off
+
+# Hide Title Bars
+for_window [app_id="^.*"] opacity 1
+default_border pixel 2
+default_floating_border pixel 2
+
+# Border
+
+client.focused #0abdc6 #0abdc6 #0abdc6 #711c91
+client.focused_inactive #123e7c #123e7c #123e7c 
+client.unfocused #123e7c #123e7c #123e7c
+
+# Cursor
+
+seat seat0 xcursor_theme "ComixCursors-White"

@@ -1,0 +1,38 @@
+#Arch
+paru -S --needed rofi-power-menu brightnessctl ranger waybar swayidle swaylock grim slurp mako ncmpcpp rofi-bluetooth-git yewtube wttr imv network-manager-applet htop libnotify mpd atool pcloud-drive snes9x-gtk xdg-desktop-portal-wlr mupdf shotwell
+
+git clone https://github.com/xgi/castero
+cd castero
+sudo python setup.py install
+sudo rm -rf ~/castero
+
+paru -Rns wofi btop micro octopi alacritty
+
+
+### Fedora
+sudo cp ~/.config/Themes_other/rofi-power-menu /usr/bin
+sudo cp ~/.config/Themes_other/rofi-bluetooth /usr/bin
+sudo cp ~/Downloads/pCloud.img /usr/bin
+
+sudo dnf install brightnessctl ranger waybar swayidle swaylock grim slurp mako ncmpcpp curl imv network-manager-applet htop libnotify mpd atool snes9x-gtk xdg-desktop-portal-wlr mupdf shotwell vim fish
+
+# codecs etc
+
+sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+
+
+# wttr
+cd /tmp
+git clone https://github.com/cblte/bash-script-wttr
+cd bash-script-wttr
+bash installer.sh
+
+
+# yewtube
+
+
+# castero
+
+# fish
+
+
