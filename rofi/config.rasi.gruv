@@ -1,5 +1,5 @@
 
-@theme "/usr/share/rofi/themes/gruvbox-dark.rasi"
+@theme ".config/rofi/themes/gruvbox-dark.rasi"
 
 configuration {
 show-icons: true;

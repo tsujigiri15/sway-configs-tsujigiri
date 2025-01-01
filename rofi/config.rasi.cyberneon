@@ -1,5 +1,5 @@
 
-@theme "/usr/share/rofi/themes/cyberpunk_neon.rasi"
+@theme ".config/rofi/themes/cyberpunk_neon.rasi"
 
 configuration {
 show-icons: true;

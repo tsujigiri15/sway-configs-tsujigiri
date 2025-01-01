@@ -1,5 +1,5 @@
 
-@theme "/usr/share/rofi/themes/nord.rasi"
+@theme ".config/rofi/themes/nord.rasi"
 
 configuration {
 show-icons: true;

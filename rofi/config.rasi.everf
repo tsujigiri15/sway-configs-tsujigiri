@@ -1,5 +1,5 @@
 
-@theme "/usr/share/rofi/themes/everforest.rasi"
+@theme ".config/rofi/themes/everforest.rasi"
 
 configuration {
 show-icons: true;

@@ -1,5 +1,5 @@
 
-@theme "/usr/share/rofi/themes/solarized.rasi"
+@theme ".config/rofi/themes/solarized.rasi"
 
 configuration {
 show-icons: true;
