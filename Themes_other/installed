@@ -80,7 +80,9 @@ flatpak install com.simplenote.Simplenote org.duckstation.DuckStation us.zoom.Zo
 
 ### Void
 
-xbps-install -S dbus bluez NetworkManager NetworkManager-openvpn libspa-bluetooth pipewire wireplumber cliphist grim  clipman sway swaybg swaylock swayidle Waybar mako ranger mpd brightnessctl ncmpcpp yewtube Imv network-manager-applet htop libnotify atool xdg-desktop-portal-wlr xorg-server-xwayland snes9x-gtk mupdf shotwell newsboat MangoHud gamemode lutris curl flatpak power-profiles-daemon corectrl fish-shell foot Signal-Desktop mpv vim steam libreoffice exfatprogs ntfs-3g vulkan-loader vulkan-loader-32bit mesa-vulkan-radeon mesa-vulkan-radeon-32bit mesa mesa-32bit fastfetch nano gdm elogind xtools git
+xbps-install -S dbus bluez NetworkManager NetworkManager-openvpn libspa-bluetooth pipewire wireplumber cliphist grim  clipman sway swaybg swaylock swayidle Waybar mako ranger mpd brightnessctl ncmpcpp yewtube Imv network-manager-applet htop libnotify atool xdg-desktop-portal-wlr xorg-server-xwayland snes9x-gtk mupdf shotwell newsboat MangoHud gamemode lutris curl flatpak power-profiles-daemon corectrl fish-shell foot Signal-Desktop mpv vim steam libreoffice exfatprogs ntfs-3g vulkan-loader vulkan-loader-32bit mesa-vulkan-radeon mesa-vulkan-radeon-32bit mesa mesa-32bit fastfetch nano gdm elogind xtools git 
+
+make autoconf automake pkg-config flex bison bison check glib-devel pango cairo gdk-pixbuf startup libxkbcommon libxkbcommon-x11 libxcb xcb-util xcb-util-cursor xcb-util-wm
 
 sudo rm /var/service/dhcpcd
 
