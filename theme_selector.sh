@@ -1,5 +1,5 @@
 #! /bin/bash
-echo "Available themes: cyber, everforest, gruvbox, nord, solarized"
+echo "Available themes: cyber, everforest, gruvbox, nord, nordmod, solarized"
 
 read -p "Select new themes: " theme
 
@@ -50,6 +50,19 @@ then
 	sed -i '7s/appear.*/appear_nord/' $HOME/.config/sway/config
 
 echo "Nord"
+
+elif [ "$theme" = "nordmod" ]
+
+then
+
+	cp foot/foot.ini.nordmod foot/foot.ini
+	cp mako/config.nord mako/config
+	cp rofi/config.rasi.nord rofi/config.rasi
+	cp waybar/style.css.nordmod waybar/style.css
+	sed -i '7s/appear.*/appear_nord/' $HOME/.config/sway/config
+
+echo "Modifying Nord with cooler terminal and bar"
+
 
 elif [ "$theme" = "solarized" ]
 

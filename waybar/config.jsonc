@@ -18,11 +18,8 @@
 
     "modules-right": [
         "mpd",
-        "idle_inhibitor",
-        "pulseaudio",
-       // "network",
-        "power-profiles-daemon",
-        /*"cpu",
+        /* "network",
+        "cpu",
         "memory",
         "temperature",*/
         "backlight",
@@ -31,6 +28,9 @@
         "battery",
        // "battery#bat2",
         "clock",
+	"power-profiles-daemon",
+        "idle_inhibitor",
+	"pulseaudio",
 	"custom/bluetooth",
         "tray",
         "custom/power"

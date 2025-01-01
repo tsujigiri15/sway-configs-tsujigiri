@@ -5,7 +5,7 @@ font=Source Code Pro:size=10
 [colors]
 alpha=0.95
 foreground = d8dee9
-background = 000b1e 
+background = 2e3440
 
 regular0 = 3b4252
 regular1 = bf616a
