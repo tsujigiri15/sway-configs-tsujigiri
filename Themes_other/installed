@@ -82,7 +82,7 @@ flatpak install com.simplenote.Simplenote org.duckstation.DuckStation us.zoom.Zo
 
 # Needed packages
 
-xbps-install -S dbus bluez NetworkManager NetworkManager-openvpn libspa-bluetooth pipewire wireplumber cliphist grim  clipman sway swaybg swaylock swayidle Waybar mako ranger mpd brightnessctl ncmpcpp yewtube Imv network-manager-applet htop libnotify atool xdg-desktop-portal-wlr xorg-server-xwayland snes9x-gtk mupdf shotwell newsboat MangoHud gamemode lutris curl flatpak power-profiles-daemon corectrl fish-shell foot Signal-Desktop mpv vim steam libreoffice exfatprogs ntfs-3g vulkan-loader vulkan-loader-32bit mesa-vulkan-radeon mesa-vulkan-radeon-32bit mesa mesa-32bit fastfetch nano gdm elogind xtools git 
+xbps-install -S dbus bluez NetworkManager NetworkManager-openvpn libspa-bluetooth pipewire wireplumber cliphist grim  clipman sway swaybg swaylock swayidle Waybar mako ranger mpd brightnessctl ncmpcpp yewtube Imv network-manager-applet htop libnotify atool xdg-desktop-portal-wlr xorg-server-xwayland snes9x-gtk mupdf shotwell newsboat MangoHud gamemode lutris curl flatpak power-profiles-daemon corectrl fish-shell foot Signal-Desktop mpv vim steam libreoffice exfatprogs ntfs-3g vulkan-loader vulkan-loader-32bit mesa-vulkan-radeon mesa-vulkan-radeon-32bit mesa mesa-32bit fastfetch nano gdm elogind xtools git wlroots dmenu rxvt-unicode font-awesome
 
 # Needed servcies
 
