@@ -1,8 +1,10 @@
-# Default config for sway
-#
 # Copy this to ~/.config/sway/config and edit it to your liking.
 #
 # Read `man 5 sway` for a complete reference.
+
+# Appearance
+
+include $HOME/.config/sway/config.d/appear_nord
 
 ### Variables
 #
@@ -241,9 +243,7 @@ bindsym $mod+r mode "resize"
 for_window [app_id="nm-connection-editor"] floating enable
 for_window [app_id="pavucontrol"] floating enable
 
-### Theming
-
-include $HOME/.config/sway/config.d/appear_gruvbox
+# Bar
 
 bar {
   swaybar_command waybar

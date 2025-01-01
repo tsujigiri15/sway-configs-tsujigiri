@@ -1,27 +1,27 @@
 
 show-failed-attempts
-color=425047
-font="Fantasque Sans Mono"
+color=000b1e
+font="Eirian"
 indicator-radius=100
 indicator-thickness=15
-line-color=2f383e
-ring-color=dbbc7f
-inside-color=425047
-key-hl-color=83c092
-separator-color=2f383e
-text-color=83c092
+line-color=711c91
+ring-color=123e7c
+inside-color=000b1e
+key-hl-color=0abdc6
+separator-color=711c91
+text-color=0abdc6
 text-caps-lock-color=""
-line-ver-color=2f383e
-ring-ver-color=83c092
-inside-ver-color=425047
-text-ver-color=a7c080
-ring-wrong-color=e69875
-text-wrong-color=e69875
-inside-wrong-color=543a48
-inside-clear-color=425047
+line-ver-color=711c91
+ring-ver-color=00ff00
+inside-ver-color=000b1e
+text-ver-color=00ff00
+ring-wrong-color=ff0000
+text-wrong-color=ff0000
+inside-wrong-color=000b1e
+inside-clear-color=000b1e
 text-clear-color=a7c080
 ring-clear-color=a7c080
-line-clear-color=2f383e
-line-wrong-color=2f383e
+line-clear-color=711c91
+line-wrong-color=711c91
 bs-hl-color=8BE9FD
 

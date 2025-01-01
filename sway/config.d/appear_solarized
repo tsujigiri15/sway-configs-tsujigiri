@@ -1,0 +1,37 @@
+# Appearance:
+
+output "*" bg /home/tom/Pictures/numen_stone.jpg fill
+
+font SourceCodePro-Regular 10
+
+exec_always {
+  gsettings set org.gnome.desktop.interface gtk-theme "Solarized-DarkArc-Orange"
+ gsettings set org.gnome.desktop.interface icon-theme "BeautySolar"
+ gsettings set org.gnome.desktop.interface font-name "Source Code Pro, 10"
+
+}
+
+# Set inner/outer gaps
+default_border normal 8
+gaps inner 8
+gaps outer 0
+# Smart gaps (ga:wps used if only more than one container on the workspace)
+#smart_gaps on
+
+# Smart borders (draw borders around container only if it is not the only container on this workspace)
+smart_borders off
+
+# Hide Title Bars
+for_window [app_id="^.*"] opacity 1
+default_border pixel 2
+default_floating_border pixel 2
+
+# Border
+
+client.focused  #cb4b16 #cb4b16 #cb4b16 #d33682
+client.focused_inactive #839496 #839496 #839496 
+client.unfocused #839496 #839496 #839496
+
+# Cursor
+
+seat seat0 xcursor_theme "ComixCursors-White"

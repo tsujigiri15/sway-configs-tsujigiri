@@ -1,0 +1,22 @@
+
+@theme "/usr/share/rofi/themes/solarized.rasi"
+
+configuration {
+show-icons: true;
+icon-theme: "BeautySolar";
+
+}
+
+window {
+width: 33%;
+
+}
+listview {
+
+	enabled: true;
+	columns: 2;
+	lines: 7;
+        
+}
+
+
