@@ -1,5 +1,5 @@
 ### Arch
-paru -S --needed rofi-power-menu brightnessctl ranger waybar swayidle swaylock grim slurp mako ncmpcpp rofi-bluetooth-git yewtube wttr imv network-manager-applet htop libnotify mpd atool pcloud-drive snes9x-gtk xdg-desktop-portal-wlr mupdf shotwell newsboat vulkan-icd-loader lib32-vulkan-icd-loader vulkan-radeon lib32-vulkan-radeon lutris mangohud steam heroic-games-launcher-bin
+paru -S --needed rofi-power-menu brightnessctl ranger waybar swayidle swaylock grim slurp mako ncmpcpp rofi-bluetooth-git yewtube wttr imv network-manager-applet htop libnotify mpd atool pcloud-drive snes9x-gtk xdg-desktop-portal-wlr mupdf shotwell newsboat udiskie vulkan-icd-loader lib32-vulkan-icd-loader vulkan-radeon lib32-vulkan-radeon lutris mangohud steam heroic-games-launcher-bin
 
 # Cachy
 paru -S proton-cachyos wine-cachyos wine-gecko wine-mono
@@ -23,7 +23,7 @@ sudo dnf copr enable mmuzila/signal atim/heroic-games-launcher ilyaz/LACT
 
 #packages
 
-sudo dnf install brightnessctl ranger waybar swayidle swaylock grim slurp mako ncmpcpp curl imv network-manager-applet htop libnotify mpd atool snes9x-gtk xdg-desktop-portal-wlr mupdf shotwell vim fish mpv pipx util-linux-user signal gamemode mangohud steam lutris heroic-games-launcher-bin lact flatpak power-profiles-daemon xorg-x11-server-Xwayland
+sudo dnf install brightnessctl ranger waybar swayidle swaylock grim slurp mako ncmpcpp curl imv network-manager-applet htop libnotify mpd atool snes9x-gtk xdg-desktop-portal-wlr mupdf shotwell vim fish mpv pipx util-linux-user signal gamemode mangohud steam lutris heroic-games-launcher-bin lact flatpak power-profiles-daemon xorg-x11-server-Xwayland udiskie 
 
 sudo dnf remove kanshi dunst Thunar
 sudo dnf autoremove
