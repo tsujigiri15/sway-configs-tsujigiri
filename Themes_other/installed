@@ -11,11 +11,7 @@ sudo rm -rf ~/castero
 
 paru -Rns wofi btop micro octopi alacritty
 
-
 ### Fedora
-sudo cp ~/.config/Themes_other/rofi-power-menu /usr/bin
-sudo cp ~/.config/Themes_other/rofi-bluetooth /usr/bin
-sudo cp ~/Downloads/pCloud.img /usr/bin
 
 # coprs
 
@@ -27,6 +23,8 @@ sudo dnf install brightnessctl ranger waybar swayidle swaylock grim slurp mako n
 
 sudo dnf remove kanshi dunst Thunar
 sudo dnf autoremove
+
+May also want a calculator
 
 # codecs
 
@@ -50,7 +48,19 @@ sudo systemctl enable --now lactd
 chsh -s /usr/bin/fish
 Move cachy os to .config/fish and point config.fish there
 
+# Things that need to be executable
+
+echo $PATH
+Check ~/.local/bin is in path, then 
+
+cp ~/.config/Themes_other/rofi-power-menu ~/.local/bin
+cp ~/.config/Themes_other/rofi-bluetooth ~/.local/bin
+sudo cp ~/Downloads/pCloud.img /usr/bin
+
+May need to chmod +x the rofi scripts
+
 # wttr
+
 cd /tmp
 git clone https://github.com/cblte/bash-script-wttr
 cd bash-script-wttr
@@ -77,6 +87,16 @@ sudo python setup.py install
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
 flatpak install com.simplenote.Simplenote org.duckstation.DuckStation us.zoom.Zoom
+
+# Start sound
+
+exec --no-startup-id startsound.sh
+
+# MangoHud
+
+mkdir ~/.config/MangoHud
+sudo cp /usr/share/doc/mangohud/MangoHud.conf.example ~/.config/MangoHud/MangoHud.conf
+vim  ~/.config/MangoHud/MangoHud.conf
 
 ### Void
 
