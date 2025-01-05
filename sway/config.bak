@@ -61,14 +61,8 @@ input * {
 
 ## Startup stuff
 
-#for arch
-#exec cliphist wipe
-#exec_always wl-paste --watch cliphist store
-# for fedora
-exec wl-paste -t text --watch clipman store --no-persist 
-exec wl-paste -p -t text --watch clipman store -P --histpath="~/.local/share/clipman-primary.json"
-# needs blank ~/.local/share/clipman-primary.json file
-
+exec cliphist wipe
+exec_always wl-paste --watch cliphist store
 exec_always mako
 exec_always nm-applet --indicator
 exec dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=sway
@@ -238,13 +232,12 @@ bindsym $mod+r mode "resize"
     # Special key to take a screenshot with grim
     bindsym Print exec grim -g "$(slurp)" | wl-copy && notify-send "Copied to Clipboard"
    # Clipboard history
-     #bindsym $mod+Control+v exec cliphist list | rofi -dmenu | cliphist decode | wl-copy
-	bindsym $mod+Control+v exec clipman pick -t rofi 
+     bindsym $mod+Control+v exec cliphist list | rofi -dmenu | cliphist decode | wl-copy
+
 ## Application shortcuts
     bindsym $mod+w exec cachy-browser
     bindsym $mod+Shift+b exec rofi-bluetooth	
     bindsym $mod+Control+l exec swaylock
-    bindsym $mod+Control+m exec udiskie -t
 # Floating window rules
 
 for_window [app_id="nm-connection-editor"] floating enable
