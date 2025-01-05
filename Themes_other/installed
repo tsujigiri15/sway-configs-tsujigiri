@@ -28,6 +28,12 @@ git clone https://github.com/tkashkin/Adwaita-for-Steam
 cd Adwaita-for-Steam
 ./install.py -t normal -c $THEME
 
+# MangoHud
+
+mkdir ~/.config/MangoHud
+sudo cp /usr/share/doc/mangohud/MangoHud.conf.example ~/.config/MangoHud/MangoHud.conf
+vim  ~/.config/MangoHud/MangoHud.conf
+
 ### Fedora
 
 # coprs
@@ -109,6 +115,11 @@ exec --no-startup-id startsound.sh
 mkdir ~/.config/MangoHud
 sudo cp /usr/share/doc/mangohud/MangoHud.conf.example ~/.config/MangoHud/MangoHud.conf
 vim  ~/.config/MangoHud/MangoHud.conf
+
+# Adwaita for steam
+git clone https://github.com/tkashkin/Adwaita-for-Steam
+cd Adwaita-for-Steam
+./install.py -t normal -c $THEME
 
 ### Void
 
