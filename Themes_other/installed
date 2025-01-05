@@ -1,22 +1,32 @@
 ### Arch
-paru -S --needed rofi-power-menu brightnessctl ranger waybar swayidle swaylock grim slurp mako ncmpcpp rofi-bluetooth-git yewtube wttr imv network-manager-applet htop libnotify mpd atool pcloud-drive snes9x-gtk xdg-desktop-portal-wlr mupdf shotwell newsboat udiskie vulkan-icd-loader lib32-vulkan-icd-loader vulkan-radeon lib32-vulkan-radeon lutris mangohud steam heroic-games-launcher-bin sox cliphist wl-clipboard v4l-utils
+paru -S --needed rofi-power-menu brightnessctl ranger waybar swayidle swaylock grim slurp mako ncmpcpp rofi-bluetooth-git  wttr imv network-manager-applet htop libnotify mpd atool pcloud-drive snes9x-gtk xdg-desktop-portal-wlr mupdf shotwell newsboat udiskie vulkan-icd-loader lib32-vulkan-icd-loader vulkan-radeon lib32-vulkan-radeon lutris mangohud steam heroic-games-launcher-bin sox cliphist wl-clipboard v4l-utils python-pipx lact xorg-x11-server-Xwayland
 
-Note - currently says clipman but config file uses cliphist pending update
+# LACT
+sudo systemctl enable --now lactd
+
+# yewtube
+sudo pipx ensurepath --global
+pipx install yewtube
+pipx runpip yewtube install --force-reinstall 'httpx<0.28'
+
+# castero
+pipx install castero
 
 # Cachy
 paru -S proton-cachyos wine-cachyos wine-gecko wine-mono
 
-git clone https://github.com/xgi/castero
-cd castero
-sudo python setup.py install
-sudo rm -rf ~/castero
-
 paru -Rns wofi btop micro octopi alacritty
+
 # Vim
 
 Add 
 xnoremap <silent> <C-c> :w !wl-copy<CR><CR> 
 to /etc/vimrc
+
+# Adwaita for steam
+git clone https://github.com/tkashkin/Adwaita-for-Steam
+cd Adwaita-for-Steam
+./install.py -t normal -c $THEME
 
 ### Fedora
 
@@ -66,15 +76,6 @@ cp ~/.config/Themes_other/rofi-bluetooth ~/.local/bin
 sudo cp ~/Downloads/pCloud.img /usr/bin
 
 May need to chmod +x the rofi scripts
-
-# Clipboard
-
-Current sway config calls to cliphist, not on fedora, so use clipman, start by adding this to config:
-exec clipman restore
-exec wl-paste -t text --watch clipman store
-
-And see menu with
-bindsym $mod+Control+v exec clipman pick -t rofi -dmenu #try switching to this in arch
 
 # wttr
 
@@ -136,13 +137,3 @@ https://github.com/lbonn/rofi
 # Void flatpaks
 flatpak install com.simplenote.Simplenote org.duckstation.DuckStation us.zoom.Zoom com.heroicgameslauncher.hgl
 
-# fish
-
-chsh -s /usr/bin/fish
-Move cachy os to .config/fish and point config.fish there
-
-# wttr
-cd /tmp
-git clone https://github.com/cblte/bash-script-wttr
-cd bash-script-wttr
-bash installer.sh
