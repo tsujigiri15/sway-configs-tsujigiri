@@ -1,22 +1,21 @@
 
-@theme ".config/rofi/themes/nord.rasi"
+@theme ".config/rofi/themes/everforest.rasi"
 
 configuration {
 show-icons: true;
-icon-theme: "Nordzy-dark";
-
+icon-theme: "Gruvbox-Plus-Dark";
 }
 
 window {
 width: 33%;
 
 }
+
 listview {
 
 	enabled: true;
 	columns: 2;
 	lines: 7;
-        
 }
 
 

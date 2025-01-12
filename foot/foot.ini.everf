@@ -2,7 +2,7 @@
 font=FantasqueSansMono-Normal:size=11
 
 [colors]
-background=2f383e
+background=425047   # old 2f383e
 foreground=d3c6aa
 alpha=0.95
 

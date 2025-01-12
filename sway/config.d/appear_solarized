@@ -1,6 +1,7 @@
 # Appearance:
 
-output "*" bg /home/tom/Pictures/numen_stone.jpg fill
+output "*" bg /home/tom/Pictures/longestwp.jpg fill
+
 
 font SourceCodePro-Regular 10
 

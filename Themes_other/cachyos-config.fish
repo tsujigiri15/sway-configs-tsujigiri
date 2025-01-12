@@ -2,11 +2,16 @@
 source /usr/share/cachyos-fish-config/conf.d/done.fish
 
 
+## login automatically to sway without display manager
+#if status is-login
+#    exec sway
+#end
+
 ## Set values
 ## Run fastfetch as welcome message
-function fish_greeting
-    fastfetch
-end
+#function fish_greeting
+#    fastfetch
+#end
 
 # Format man pages
 set -x MANROFFOPT "-c"
