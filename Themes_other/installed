@@ -38,13 +38,12 @@ vim  ~/.config/MangoHud/MangoHud.conf
 
 # coprs
 
-sudo dnf copr enable mmuzila/signal atim/heroic-games-launcher ilyaz/LACT
+sudo dnf copr enable mmuzila/signal atim/heroic-games-launcher ilyaz/LACT bieszczaders/kernel-cachyos-addons 
+
 
 #packages
 
-sudo dnf install brightnessctl wl-clipboard clipman ranger waybar swayidle swaylock grim slurp mako ncmpcpp curl imv network-manager-applet htop libnotify mpd atool snes9x-gtk xdg-desktop-portal-wlr mupdf shotwell vim fish mpv pipx util-linux-user signal gamemode mangohud steam lutris heroic-games-launcher-bin lact flatpak power-profiles-daemon xorg-x11-server-Xwayland udiskie sox v4l-utils rofi-wayland
-
-
+sudo dnf install brightnessctl wl-clipboard clipman ranger waybar swayidle swaylock grim slurp mako ncmpcpp curl imv network-manager-applet htop libnotify mpd atool snes9x-gtk xdg-desktop-portal-wlr mupdf shotwell vim fish mpv pipx util-linux-user signal gamemode mangohud steam lutris heroic-games-launcher-bin lact flatpak power-profiles-daemon xorg-x11-server-Xwayland udiskie sox v4l-utils rofi-wayland scx-scheds  
 sudo dnf remove kanshi dunst Thunar
 sudo dnf autoremove
 
@@ -125,7 +124,7 @@ cd Adwaita-for-Steam
 
 # Needed packages
 
-xbps-install -S dbus bluez NetworkManager NetworkManager-openvpn libspa-bluetooth pipewire wireplumber cliphist wl-clipboard	grim   sway swaybg swaylock swayidle Waybar mako ranger mpd brightnessctl ncmpcpp yewtube Imv network-manager-applet htop libnotify atool xdg-desktop-portal-wlr xorg-server-xwayland snes9x-gtk mupdf shotwell newsboat MangoHud gamemode lutris curl flatpak power-profiles-daemon corectrl fish-shell foot Signal-Desktop mpv vim steam libreoffice exfatprogs ntfs-3g vulkan-loader vulkan-loader-32bit mesa-vulkan-radeon mesa-vulkan-radeon-32bit mesa mesa-32bit fastfetch nano gdm elogind xtools git wlroots dmenu rxvt-unicode font-awesome
+xbps-install -S dbus bluez NetworkManager NetworkManager-openvpn libspa-bluetooth pipewire wireplumber cliphist wl-clipboard	grim   sway swaybg swaylock swayidle Waybar mako ranger mpd brightnessctl ncmpcpp yewtube Imv network-manager-applet htop libnotify atool xdg-desktop-portal-wlr xorg-server-xwayland snes9x-gtk mupdf shotwell newsboat MangoHud gamemode lutris curl flatpak power-profiles-daemon corectrl fish-shell foot Signal-Desktop mpv vim steam libreoffice exfatprogs ntfs-3g vulkan-loader vulkan-loader-32bit mesa-vulkan-radeon mesa-vulkan-radeon-32bit mesa mesa-32bit fastfetch wofi nano elogind xtools git wlroots dmenu rxvt-unicode font-awesome fontconfig nerd-fonts-symbols-ttf	wlogout
 
 # Needed servcies
 
@@ -135,16 +134,22 @@ sudo ln -s /etc/sv/pipewire /var/service
 sudo ln -s /etc/sv/dbus /var/service
 sudo ln -s /etc/sv/bluetoothd /var/service
 sudo ln -s /etc/sv/elogind /var/service
-sudo ln -s /etc/sv/gdm /var/service
 sudo ln -s /etc/sv/NetworkManager /var/service
-
-# For rofi-wayland
-
-make autoconf automake pkg-config flex bison bison check glib-devel pango cairo gdk-pixbuf startup libxkbcommon libxkbcommon-x11 libxcb xcb-util xcb-util-cursor xcb-util-wm
-
-https://xbps-src-tutorials.github.io/
-https://github.com/lbonn/rofi
 
 # Void flatpaks
 flatpak install com.simplenote.Simplenote org.duckstation.DuckStation us.zoom.Zoom com.heroicgameslauncher.hgl
 
+# Bluetooth
+https://github.com/techkek/wofi-bluetooth
+
+# Extra theming and config
+https://github.com/gfhdhytghd/wlogout-theme/blob/main/README.md 
+https://github.com/sentriz/cliphist - to connect wofi for clipboard
+https://mephisto.cc/en/tech/wofi/ - wofi theming basics
+https://github.com/kmephistoh/dotfiles/tree/main/.config/wofi - example config
+
+# Fish Alias
+
+~/.config/fish/config.fish
+alias xup = 'sudo xbps-install -Su'
+alias fuk = 'flatpak update'
