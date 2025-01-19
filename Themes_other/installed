@@ -1,5 +1,5 @@
 ### Arch
-sudo pacman -S --needed brightnessctl ranger waybar swayidle swaylock grim slurp mako ncmpcpp imv network-manager-applet htop libnotify mpd atool snes9x-gtk xdg-desktop-portal-wlr mupdf shotwell newsboat udiskie vulkan-icd-loader lib32-vulkan-icd-loader vulkan-radeon lib32-vulkan-radeon lutris mangohud steam sox cliphist wl-clipboard v4l-utils python-pipx  xorg-xwayland libreoffice-fresh rofi-wayland power-profiles-daemon linux-headers dhcpcd android-udev android-file-transfer unzip pipewire pipewire-pulse wireplumber gst-plugin-pipewire intel-ucode polkit galculator thunar fish scx-scheds vim-spell-uk vim pavucontrol foot nano	bluez bluez-utils
+sudo pacman -S --needed brightnessctl ranger waybar swayidle swaylock grim slurp mako ncmpcpp imv network-manager-applet htop libnotify mpd atool snes9x-gtk xdg-desktop-portal-wlr mupdf shotwell newsboat udiskie vulkan-icd-loader lib32-vulkan-icd-loader vulkan-radeon lib32-vulkan-radeon lutris mangohud steam sox cliphist wl-clipboard v4l-utils python-pipx  xorg-xwayland libreoffice-fresh rofi-wayland power-profiles-daemon linux-headers dhcpcd android-udev android-file-transfer unzip pipewire pipewire-pulse wireplumber gst-plugin-pipewire intel-ucode polkit galculator thunar fish scx-scheds vim-spell-uk vim pavucontrol foot nano	bluez bluez-utils gamemode mangohud signal-desktop  	ttf-font-awesome awesome-terminal-fonts nerd-fonts
 
 # Other services
 
@@ -56,7 +56,7 @@ sudo dnf copr enable mmuzila/signal atim/heroic-games-launcher ilyaz/LACT bieszc
 
 #packages
 
-sudo dnf install brightnessctl wl-clipboard clipman ranger waybar swayidle swaylock grim slurp mako ncmpcpp curl imv network-manager-applet htop libnotify mpd atool snes9x-gtk xdg-desktop-portal-wlr mupdf shotwell vim fish mpv pipx util-linux-user signal gamemode mangohud steam lutris heroic-games-launcher-bin lact flatpak power-profiles-daemon xorg-x11-server-Xwayland udiskie sox v4l-utils rofi-wayland scx-scheds swaybg ncmpcpp pavucontrol
+sudo dnf install brightnessctl wl-clipboard clipman ranger waybar swayidle swaylock grim slurp mako ncmpcpp curl imv network-manager-applet htop libnotify mpd atool snes9x-gtk xdg-desktop-portal-wlr mupdf shotwell vim fish mpv pipx util-linux-user signal gamemode mangohud steam lutris heroic-games-launcher-bin lact flatpak power-profiles-daemon xorg-x11-server-Xwayland udiskie sox v4l-utils rofi-wayland scx-scheds swaybg pavucontrol
 
 sudo dnf remove kanshi dunst 
 sudo dnf autoremove
