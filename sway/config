@@ -72,6 +72,7 @@ exec wl-paste -p -t text --watch clipman store -P --histpath="~/.local/share/cli
 exec_always mako
 exec_always nm-applet --indicator
 exec dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=sway
+exec /usr/libexec/polkit-gnome-authentication-agent-1
 
 ### Key bindings
 #
@@ -241,7 +242,7 @@ bindsym $mod+r mode "resize"
      #bindsym $mod+Control+v exec cliphist list | rofi -dmenu | cliphist decode | wl-copy
 	bindsym $mod+Control+v exec clipman pick -t rofi 
 ## Application shortcuts
-    bindsym $mod+w exec cachy-browser
+    bindsym $mod+w exec firefox
     bindsym $mod+Shift+b exec rofi-bluetooth	
     bindsym $mod+Control+l exec swaylock
     bindsym $mod+Control+m exec udiskie -t
