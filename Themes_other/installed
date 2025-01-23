@@ -1,5 +1,5 @@
 ### Arch
-sudo pacman -S --needed brightnessctl ranger waybar swayidle swaylock grim slurp mako ncmpcpp imv network-manager-applet htop libnotify mpd atool snes9x-gtk xdg-desktop-portal-wlr mupdf shotwell newsboat udiskie vulkan-icd-loader lib32-vulkan-icd-loader vulkan-radeon lib32-vulkan-radeon lutris mangohud steam sox cliphist wl-clipboard v4l-utils python-pipx  xorg-xwayland libreoffice-fresh rofi-wayland power-profiles-daemon linux-headers dhcpcd android-udev android-file-transfer unzip pipewire pipewire-pulse wireplumber gst-plugin-pipewire intel-ucode polkit galculator thunar fish scx-scheds vim-spell-uk vim pavucontrol foot nano	bluez bluez-utils gamemode mangohud signal-desktop  	ttf-font-awesome awesome-terminal-fonts nerd-fonts
+sudo pacman -S --needed brightnessctl ranger waybar swayidle swaylock grim slurp mako ncmpcpp imv network-manager-applet htop libnotify mpd atool snes9x-gtk xdg-desktop-portal-wlr mupdf shotwell newsboat udiskie vulkan-icd-loader lib32-vulkan-icd-loader vulkan-radeon lib32-vulkan-radeon lutris steam sox cliphist wl-clipboard v4l-utils python-pipx xorg-xwayland libreoffice-fresh rofi-wayland power-profiles-daemon linux-headers dhcpcd android-udev android-file-transfer unzip pipewire pipewire-pulse wireplumber gst-plugin-pipewire intel-ucode polkit galculator thunar fish scx-scheds vim-spell-uk vim pavucontrol foot nano	bluez bluez-utils gamemode mangohud signal-desktop ttf-font-awesome awesome-terminal-fonts wildmidi unzip ttf-liberation snapper timeshift grub-btrfs snap-pac curl xdg-desktop-portal thunar-archive-plugin thunar-volman galculator ffmpeg gnome-keyring polkit-gnome lib32-mangohud gamescope networkmanager-openvpn
 
 # Other services
 
@@ -7,45 +7,18 @@ sudo systemctl enable NetworkManager
 sudo systemctl enable bluetooth
 sudo systemctl enable dbus
 
-# LACT
-sudo systemctl enable --now lactd
-
-# fish
-chsh -s /usr/bin/fish
-Logout and in
+Snapper and timeshift set up
 
 # AUR packages
-yay -S --needed rofi-power-menu rofi-bluetooth-git wttr pcloud-drive heroic-games-launcher-bin lact proton-ge-custom-bin simplenote-electron-bin
+yay -S --needed rofi-power-menu rofi-bluetooth-git wttr pcloud-drive heroic-games-launcher-bin lact proton-ge-custom-bin simplenote-electron-bin snap-pac-grub
 
-# yewtube
-sudo pipx ensurepath --global
-pipx install yewtube
-pipx runpip yewtube install --force-reinstall 'httpx<0.28'
-
-# castero
-pipx install castero
+# Clipboard
+Change config file - uncomment cliphist, comment clipman
 
 # Cachy
 paru -S proton-cachyos wine-cachyos wine-gecko wine-mono
 
 paru -Rns wofi btop micro octopi alacritty
-
-# Vim
-
-Add 
-xnoremap <silent> <C-c> :w !wl-copy<CR><CR> 
-to /etc/vimrc
-
-# Adwaita for steam
-git clone https://github.com/tkashkin/Adwaita-for-Steam
-cd Adwaita-for-Steam
-./install.py -t normal -c $THEME
-
-# MangoHud
-
-mkdir ~/.config/MangoHud
-sudo cp /usr/share/doc/mangohud/MangoHud.conf.example ~/.config/MangoHud/MangoHud.conf
-vim  ~/.config/MangoHud/MangoHud.conf
 
 ### Fedora
 
@@ -53,10 +26,9 @@ vim  ~/.config/MangoHud/MangoHud.conf
 
 sudo dnf copr enable mmuzila/signal atim/heroic-games-launcher ilyaz/LACT bieszczaders/kernel-cachyos-addons 
 
-
 #packages
 
-sudo dnf install brightnessctl wl-clipboard clipman ranger waybar swayidle swaylock grim slurp mako ncmpcpp curl imv network-manager-applet htop libnotify mpd atool snes9x-gtk xdg-desktop-portal-wlr mupdf shotwell vim fish mpv pipx util-linux-user signal gamemode mangohud steam lutris heroic-games-launcher-bin lact flatpak power-profiles-daemon xorg-x11-server-Xwayland udiskie sox v4l-utils rofi-wayland scx-scheds swaybg pavucontrol
+sudo dnf install brightnessctl wl-clipboard clipman ranger waybar swayidle swaylock grim slurp mako ncmpcpp curl imv network-manager-applet htop libnotify mpd atool snes9x-gtk xdg-desktop-portal-wlr mupdf shotwell vim fish mpv pipx util-linux-user signal gamemode mangohud steam lutris heroic-games-launcher-bin lact flatpak power-profiles-daemon xorg-x11-server-Xwayland udiskie sox v4l-utils rofi-wayland scx-scheds swaybg pavucontrol fontawesome-fonts-all liberation-fonts adobe-source-code-pro-fonts
 
 sudo dnf remove kanshi dunst 
 sudo dnf autoremove
@@ -76,15 +48,6 @@ sudo dnf swap mesa-vdpau-drivers.i686 mesa-vdpau-drivers-freeworld.i686
 sudo dnf install rpmfusion-free-release-tainted
 sudo dnf install libdvdcss
 
-# LACT
-
-sudo systemctl enable --now lactd
-
-# fish
-
-chsh -s /usr/bin/fish
-Move cachy os to .config/fish and point config.fish there
-
 # Things that need to be executable
 
 echo $PATH
@@ -103,6 +66,42 @@ git clone https://github.com/cblte/bash-script-wttr
 cd bash-script-wttr
 bash installer.sh
 
+# Flatpaks
+
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+
+flatpak install com.simplenote.Simplenote org.duckstation.DuckStation us.zoom.Zoom
+
+# Clipboard
+Change config file - uncomment clipman, comment cliphist
+
+### Shared
+
+# Vim
+
+Add 
+xnoremap <silent> <C-c> :w !wl-copy<CR><CR> 
+:set number
+to /etc/vimrc
+
+# fish
+chsh -s /usr/bin/fish
+Logout and in
+
+# LACT
+sudo vim /etc/default/grub, add
+GRUB_CMDLINE_LINUX_DEFAULT="... amdgpu.ppfeaturemask=0xffffffff"
+Arch: sudo grub-mkconfig -o /boot/grub/grub.cfg
+Fedora: sudo grub2-mkconfig -o /etc/grub2-efi.cfg
+
+sudo systemctl enable --now lactd
+
+# MangoHud
+
+mkdir ~/.config/MangoHud
+sudo cp /usr/share/doc/mangohud/MangoHud.conf.example ~/.config/MangoHud/MangoHud.conf
+vim  ~/.config/MangoHud/MangoHud.conf
+
 # yewtube
 
 sudo pipx ensurepath --global
@@ -113,26 +112,14 @@ pipx runpip yewtube install --force-reinstall 'httpx<0.28'
 
 pipx install castero
 
-# Flatpaks
-
-flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-
-flatpak install com.simplenote.Simplenote org.duckstation.DuckStation us.zoom.Zoom
-
-# Start sound
-
-exec --no-startup-id startsound.sh
-
-# MangoHud
-
-mkdir ~/.config/MangoHud
-sudo cp /usr/share/doc/mangohud/MangoHud.conf.example ~/.config/MangoHud/MangoHud.conf
-vim  ~/.config/MangoHud/MangoHud.conf
-
 # Adwaita for steam
 git clone https://github.com/tkashkin/Adwaita-for-Steam
 cd Adwaita-for-Steam
 ./install.py -t normal -c $THEME
+
+# Start sound
+
+exec --no-startup-id startsound.sh
 
 ### Void
 
