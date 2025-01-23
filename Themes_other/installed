@@ -1,5 +1,11 @@
 ### Arch
-sudo pacman -S --needed brightnessctl ranger waybar swayidle swaylock grim slurp mako ncmpcpp imv network-manager-applet htop libnotify mpd atool snes9x-gtk xdg-desktop-portal-wlr mupdf shotwell newsboat udiskie vulkan-icd-loader lib32-vulkan-icd-loader vulkan-radeon lib32-vulkan-radeon lutris steam sox cliphist wl-clipboard v4l-utils python-pipx xorg-xwayland libreoffice-fresh rofi-wayland power-profiles-daemon linux-headers dhcpcd android-udev android-file-transfer unzip pipewire pipewire-pulse wireplumber gst-plugin-pipewire intel-ucode polkit galculator thunar fish scx-scheds vim-spell-uk vim pavucontrol foot nano	bluez bluez-utils gamemode mangohud signal-desktop ttf-font-awesome awesome-terminal-fonts wildmidi unzip ttf-liberation snapper timeshift grub-btrfs snap-pac curl xdg-desktop-portal thunar-archive-plugin thunar-volman galculator ffmpeg gnome-keyring polkit-gnome lib32-mangohud gamescope networkmanager-openvpn
+# Mirrors
+
+# Core packages
+sudo pacman -S --needed brightnessctl ranger waybar swayidle swaylock grim slurp mako ncmpcpp imv network-manager-applet htop libnotify mpd atool snes9x-gtk xdg-desktop-portal-wlr mupdf shotwell newsboat udiskie vulkan-icd-loader lib32-vulkan-icd-loader vulkan-radeon lib32-vulkan-radeon lutris steam sox cliphist wl-clipboard v4l-utils python-pipx xorg-xwayland libreoffice-fresh rofi-wayland power-profiles-daemon linux-headers dhcpcd android-udev android-file-transfer unzip pipewire pipewire-pulse wireplumber gst-plugin-pipewire intel-ucode polkit galculator thunar fish scx-scheds vim-spell-uk vim pavucontrol foot nano	bluez bluez-utils gamemode mangohud signal-desktop ttf-font-awesome awesome-terminal-fonts wildmidi unzip ttf-liberation snapper timeshift grub-btrfs snap-pac curl xdg-desktop-portal thunar-archive-plugin thunar-volman galculator ffmpeg gnome-keyring polkit-gnome lib32-mangohud gamescope networkmanager-openvpn pacman-contrib
+
+# AUR packages
+yay -S --needed rofi-power-menu rofi-bluetooth-git wttr pcloud-drive heroic-games-launcher-bin lact proton-ge-custom-bin simplenote-electron-bin snap-pac-grub
 
 # Other services
 
@@ -9,8 +15,10 @@ sudo systemctl enable dbus
 
 Snapper and timeshift set up
 
-# AUR packages
-yay -S --needed rofi-power-menu rofi-bluetooth-git wttr pcloud-drive heroic-games-launcher-bin lact proton-ge-custom-bin simplenote-electron-bin snap-pac-grub
+# Package cache clearup
+
+sudo mkdir -p /etc/pacman.d/hooks
+sudo mv clean_package_cache.hook /etc/pacman.d/hooks
 
 # Clipboard
 Change config file - uncomment cliphist, comment clipman
@@ -28,7 +36,7 @@ sudo dnf copr enable mmuzila/signal atim/heroic-games-launcher ilyaz/LACT bieszc
 
 #packages
 
-sudo dnf install brightnessctl wl-clipboard clipman ranger waybar swayidle swaylock grim slurp mako ncmpcpp curl imv network-manager-applet htop libnotify mpd atool snes9x-gtk xdg-desktop-portal-wlr mupdf shotwell vim fish mpv pipx util-linux-user signal gamemode mangohud steam lutris heroic-games-launcher-bin lact flatpak power-profiles-daemon xorg-x11-server-Xwayland udiskie sox v4l-utils rofi-wayland scx-scheds swaybg pavucontrol fontawesome-fonts-all liberation-fonts adobe-source-code-pro-fonts
+sudo dnf install brightnessctl wl-clipboard clipman ranger waybar swayidle swaylock grim slurp mako ncmpcpp curl imv network-manager-applet htop libnotify mpd atool snes9x-gtk xdg-desktop-portal-wlr mupdf shotwell vim fish mpv pipx util-linux-user signal gamemode mangohud steam lutris heroic-games-launcher-bin lact flatpak power-profiles-daemon xorg-x11-server-Xwayland udiskie sox v4l-utils rofi-wayland scx-scheds swaybg pavucontrol fontawesome-fonts-all liberation-fonts adobe-source-code-pro-fonts polkit-gnome
 
 sudo dnf remove kanshi dunst 
 sudo dnf autoremove
