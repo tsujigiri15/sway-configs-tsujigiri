@@ -7,7 +7,7 @@ exec_always {
   gsettings set org.gnome.desktop.interface gtk-theme "Everforest-Dark-Medium"
  gsettings set org.gnome.desktop.interface icon-theme "Gruvbox-Plus-Dark"
  gsettings set org.gnome.desktop.interface font-name "Fantasque Sans Mono, 11"
-
+ gsettings set org.gnome.desktop.interface cursor-theme "ComixCursors-White"
 }
 
 # Set inner/outer gaps
