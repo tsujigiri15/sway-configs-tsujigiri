@@ -8,7 +8,7 @@ exec_always {
   gsettings set org.gnome.desktop.interface gtk-theme "materia-cyberpunk-neon"
  gsettings set org.gnome.desktop.interface icon-theme "candy-icons"
  gsettings set org.gnome.desktop.interface font-name "Eirian, 11"
-
+  gsettings set org.gnome.desktop.interface cursor-theme "ComixCursors-White"
 }
 
 # Set inner/outer gaps
