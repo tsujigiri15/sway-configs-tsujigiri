@@ -21,3 +21,5 @@ mv Themes_other/numenwp.jpg ~/Pictures
 mv Themes_other/forest-hill.jpg ~/Pictures
 mv Themes_other/forest-mountain.jpg ~/Pictures
 mv Themes_other/forest-warm.jpg ~/Pictures
+mv Themes_other/wpcastle.jpg ~/Pictures
+
