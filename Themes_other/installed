@@ -12,6 +12,7 @@ yay -S --needed rofi-power-menu rofi-bluetooth-git wttr pcloud-drive heroic-game
 sudo systemctl enable NetworkManager
 sudo systemctl enable bluetooth
 sudo systemctl enable dbus
+sudo usermod -aG input tom
 
 Snapper and timeshift set up
 
