@@ -80,6 +80,9 @@ flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.f
 
 flatpak install com.simplenote.Simplenote org.duckstation.DuckStation us.zoom.Zoom
 
+sudo flatpak override --filesystem=$HOME/.themes
+sudo flatpak override --filesystem=$HOME/.icons
+
 # Clipboard
 Change config file - uncomment clipman, comment cliphist
 
