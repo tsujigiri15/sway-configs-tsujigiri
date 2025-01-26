@@ -87,6 +87,7 @@ sudo flatpak override --filesystem=$HOME/.icons
 
 # Clipboard
 Change config file - uncomment clipman, comment cliphist
+For clipman to work, create blank file ~/.local/share/clipman-primary.json
 
 ### Shared
 
