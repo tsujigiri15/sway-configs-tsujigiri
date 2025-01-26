@@ -61,9 +61,10 @@ input * {
 
 ## Startup stuff
 
-#for arch
+#for arch/void
 #exec cliphist wipe
 #exec_always wl-paste --watch cliphist store
+
 # for fedora
 exec clipman clear --all
 exec wl-paste -t text --watch clipman store --no-persist 
@@ -74,6 +75,9 @@ exec_always mako
 exec_always nm-applet --indicator
 exec dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=sway
 exec /usr/libexec/polkit-gnome-authentication-agent-1
+
+# for void
+# exec pipewire
 
 ### Key bindings
 #
@@ -245,6 +249,9 @@ bindsym $mod+r mode "resize"
 #bindsym $mod+Control+v exec cliphist list | rofi -dmenu | cliphist decode | wl-copy
 # Fedora
 bindsym $mod+Control+v exec clipman pick -t rofi 
+# Void
+#bindsym $mod+Control+v exec cliphist list | wofi -S dmenu | cliphist decode | wl-copy
+
 ## Application shortcuts
     bindsym $mod+w exec firefox
     bindsym $mod+Shift+b exec rofi-bluetooth	
