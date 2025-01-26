@@ -2,10 +2,10 @@
 # Mirrors
 
 # Core packages
-sudo pacman -S --needed brightnessctl ranger waybar swayidle swaylock grim slurp mako ncmpcpp imv network-manager-applet htop libnotify mpd atool snes9x-gtk xdg-desktop-portal-wlr mupdf shotwell newsboat udiskie vulkan-icd-loader lib32-vulkan-icd-loader vulkan-radeon lib32-vulkan-radeon lutris steam sox cliphist wl-clipboard v4l-utils python-pipx xorg-xwayland libreoffice-fresh rofi-wayland power-profiles-daemon linux-headers dhcpcd android-udev android-file-transfer unzip pipewire pipewire-pulse wireplumber gst-plugin-pipewire intel-ucode polkit galculator thunar fish scx-scheds vim-spell-uk vim pavucontrol foot nano	bluez bluez-utils gamemode mangohud signal-desktop ttf-font-awesome awesome-terminal-fonts wildmidi unzip ttf-liberation curl xdg-desktop-portal thunar-archive-plugin thunar-volman galculator ffmpeg gnome-keyring polkit-gnome lib32-mangohud gamescope networkmanager-openvpn pacman-contrib
+sudo pacman -S --needed brightnessctl ranger waybar swayidle swaylock grim slurp mako ncmpcpp imv network-manager-applet htop libnotify mpd atool snes9x-gtk xdg-desktop-portal-wlr mupdf shotwell newsboat udiskie vulkan-icd-loader lib32-vulkan-icd-loader vulkan-radeon lib32-vulkan-radeon lutris steam sox cliphist wl-clipboard v4l-utils python-pipx xorg-xwayland libreoffice-fresh rofi-wayland power-profiles-daemon linux-headers dhcpcd android-udev android-file-transfer unzip pipewire pipewire-pulse wireplumber gst-plugin-pipewire intel-ucode polkit galculator thunar fish scx-scheds vim-spell-uk vim pavucontrol foot nano	bluez bluez-utils gamemode mangohud signal-desktop ttf-font-awesome awesome-terminal-fonts wildmidi unzip ttf-liberation curl xdg-desktop-portal thunar-archive-plugin thunar-volman galculator ffmpeg gnome-keyring polkit-gnome lib32-mangohud gamescope networkmanager-openvpn pacman-contrib mtpfs gvfs-mtp gvfs-gphoto2 
 
 # AUR packages
-yay -S --needed rofi-power-menu rofi-bluetooth-git wttr pcloud-drive heroic-games-launcher-bin lact proton-ge-custom-bin simplenote-electron-bin snap-pac-grub
+yay -S --needed rofi-power-menu rofi-bluetooth-git wttr pcloud-drive heroic-games-launcher-bin lact proton-ge-custom-bin simplenote-electron-bin jmtpfs
 
 # Other services
 
