@@ -19,6 +19,7 @@ set $right l
 set $term foot
 # Your preferred application launcher
 set $menu rofi -show drun
+# set $menu wofi -S drun #void
 
 ### Output configuration
 
@@ -69,7 +70,6 @@ input * {
 exec clipman clear --all
 exec wl-paste -t text --watch clipman store --no-persist 
 exec wl-paste -p -t text --watch clipman store -P --histpath="~/.local/share/clipman-primary.json"
-# needs blank ~/.local/share/clipman-primary.json file
 
 exec_always mako
 exec_always nm-applet --indicator
@@ -103,9 +103,9 @@ exec /usr/libexec/polkit-gnome-authentication-agent-1
     bindsym $mod+Shift+c reload
 
     # Exit sway (logs you out of your Wayland session)
-    # bindsym $mod+Shift+e exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -B 'Yes, exit sway' 'swaymsg exit'
+    # bindsym $mod+Shift+e exec wlogout #void
     bindsym $mod+Shift+e exec rofi -show power-menu -modi power-menu:rofi-power-menu 
-
+  
 
 #
 # Moving around:
@@ -255,6 +255,7 @@ bindsym $mod+Control+v exec clipman pick -t rofi
 ## Application shortcuts
     bindsym $mod+w exec firefox
     bindsym $mod+Shift+b exec rofi-bluetooth	
+# bindsym $mod+Shift+b exec --no-startup-id wofi-bluetooth #void
     bindsym $mod+Control+l exec swaylock
     bindsym $mod+Control+m exec udiskie -t
 # Floating window rules
