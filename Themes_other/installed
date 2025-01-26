@@ -30,7 +30,7 @@ paru -Rns wofi btop micro octopi alacritty
 
 ### Fedora
 
-# coprs
+# coprs  - should be able to install fedora_codecs_copr.sh
 
 sudo dnf copr enable mmuzila/signal atim/heroic-games-launcher ilyaz/LACT bieszczaders/kernel-cachyos-addons 
 
@@ -43,7 +43,7 @@ sudo dnf autoremove
 
 May also want a calculator
 
-# codecs
+# codecs - should be able to install fedora_codecs_copr.sh
 
 sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 sudo dnf config-manager setopt fedora-cisco-openh264.enabled=1
