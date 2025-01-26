@@ -1,10 +1,14 @@
 ﻿## Source from conf.d before our fish config
 # source /usr/share/cachyos-fish-config/conf.d/done.fish
 
-
 ## login automatically to sway without display manager
 #if status is-login
 #    exec sway
+#end
+
+## login automatically to sway without display manager on void
+#if status is-login
+#    exec dbus-run-session sway
 #end
 
 ## Set values
