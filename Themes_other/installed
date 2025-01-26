@@ -138,7 +138,15 @@ exec --no-startup-id startsound.sh
 
 # Needed packages
 
-xbps-install -S dbus bluez NetworkManager NetworkManager-openvpn libspa-bluetooth pipewire wireplumber cliphist wl-clipboard	grim   sway swaybg swaylock swayidle Waybar mako ranger mpd brightnessctl ncmpcpp yewtube Imv network-manager-applet htop libnotify atool xdg-desktop-portal-wlr xorg-server-xwayland snes9x-gtk mupdf shotwell newsboat MangoHud gamemode lutris curl flatpak power-profiles-daemon corectrl fish-shell foot Signal-Desktop mpv vim steam libreoffice exfatprogs ntfs-3g vulkan-loader vulkan-loader-32bit mesa-vulkan-radeon mesa-vulkan-radeon-32bit mesa mesa-32bit fastfetch wofi nano elogind xtools git wlroots dmenu rxvt-unicode font-awesome fontconfig nerd-fonts-symbols-ttf	wlogout libdvdcss libdvdnav libdvdread libdvdread-32bit jmtpfs gvfs-mtp gvfs-gphoto2 vlc
+xbps-install -S void-repo-nonfree void-repo-multilib
+
+xbps-install -S dbus bluez NetworkManager NetworkManager-openvpn libspa-bluetooth pipewire wireplumber cliphist wl-clipboard	grim   sway swaybg swaylock swayidle Waybar mako ranger mpd brightnessctl ncmpcpp yewtube Imv network-manager-applet htop libnotify atool xdg-desktop-portal-wlr xorg-server-xwayland snes9x-gtk mupdf shotwell newsboat MangoHud gamemode lutris curl flatpak power-profiles-daemon corectrl fish-shell foot Signal-Desktop mpv vim steam libreoffice exfatprogs ntfs-3g vulkan-loader vulkan-loader-32bit mesa mesa-32bit fastfetch wofi nano elogind xtools git wlroots dmenu rxvt-unicode font-awesome fontconfig nerd-fonts-symbols-ttf	wlogout libdvdcss libdvdnav libdvdread libdvdread-32bit jmtpfs gvfs-mtp gvfs-gphoto2 vlc vulkan-loader vulkan-loader-32bit linux-headers font-awesome font-awesome5 font-awesome6 liberation-fonts-ttf unzip android-udev-rules android-file-transfer-linux udiskie
+
+# if running on main pc
+mesa-vulkan-radeon mesa-vulkan-radeon-32bit
+
+# if running on laptop
+mesa-vulkan-intel mesa-vulkan-intel-32bit broadcom-bt-firmware broadcom-wl-dkms 
 
 # Needed servcies
 
