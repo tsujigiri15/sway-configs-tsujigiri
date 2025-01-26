@@ -42,6 +42,7 @@ sudo dnf remove kanshi dunst
 sudo dnf autoremove
 
 May also want a calculator
+If android does not show up in thunar, install jmtpfs gvfs-mtp gvfs-gphoto2
 
 # codecs - should be able to install fedora_codecs_copr.sh
 
