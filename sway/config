@@ -65,6 +65,7 @@ input * {
 #exec cliphist wipe
 #exec_always wl-paste --watch cliphist store
 # for fedora
+exec clipman clear --all
 exec wl-paste -t text --watch clipman store --no-persist 
 exec wl-paste -p -t text --watch clipman store -P --histpath="~/.local/share/clipman-primary.json"
 # needs blank ~/.local/share/clipman-primary.json file
@@ -238,9 +239,12 @@ bindsym $mod+r mode "resize"
     bindsym --locked XF86MonBrightnessUp exec brightnessctl set 5%+
     # Special key to take a screenshot with grim
     bindsym Print exec grim -g "$(slurp)" | wl-copy && notify-send "Copied to Clipboard"
-   # Clipboard history
-     #bindsym $mod+Control+v exec cliphist list | rofi -dmenu | cliphist decode | wl-copy
-	bindsym $mod+Control+v exec clipman pick -t rofi 
+
+# Clipboard history
+# Arch    
+#bindsym $mod+Control+v exec cliphist list | rofi -dmenu | cliphist decode | wl-copy
+# Fedora
+bindsym $mod+Control+v exec clipman pick -t rofi 
 ## Application shortcuts
     bindsym $mod+w exec firefox
     bindsym $mod+Shift+b exec rofi-bluetooth	
