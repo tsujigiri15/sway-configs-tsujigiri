@@ -35,7 +35,7 @@ paru -Rns wofi btop micro octopi alacritty
 
 sudo dnf install brightnessctl wl-clipboard clipman ranger waybar swayidle swaylock grim slurp mako ncmpcpp curl imv network-manager-applet htop libnotify atool snes9x-gtk xdg-desktop-portal-wlr mupdf shotwell vim fish mpv pipx util-linux-user signal gamemode mangohud steam lutris heroic-games-launcher-bin lact flatpak power-profiles-daemon xorg-x11-server-Xwayland udiskie sox v4l-utils rofi-wayland scx-scheds swaybg pavucontrol fontawesome-fonts-all liberation-fonts adobe-source-code-pro-fonts polkit-gnome unzip android-file-transfer exfatprogs NetworkManager-openvpn openvpn xdg-desktop-portal libreoffice vlc gvfs-mtp gvfs-gphoto2 jmtpfs
 
-sudo dnf remove kanshi dunst 
+sudo dnf remove kanshi dunst light
 sudo dnf autoremove
 
 May also want a calculator
