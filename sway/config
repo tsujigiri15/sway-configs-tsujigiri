@@ -19,7 +19,7 @@ set $right l
 set $term foot
 # Your preferred application launcher
 set $menu rofi -show drun
-# set $menu wofi -S drun #void
+# set $menu wofi -S drun #if need wofi
 
 ### Output configuration
 
@@ -75,9 +75,6 @@ exec_always mako
 exec_always nm-applet --indicator
 exec dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=sway
 exec /usr/libexec/polkit-gnome-authentication-agent-1
-
-# for void
-# exec pipewire
 
 ### Key bindings
 #
@@ -249,13 +246,13 @@ bindsym $mod+r mode "resize"
 #bindsym $mod+Control+v exec cliphist list | rofi -dmenu | cliphist decode | wl-copy
 # Fedora
 bindsym $mod+Control+v exec clipman pick -t rofi 
-# Void
+# If need wofi
 #bindsym $mod+Control+v exec cliphist list | wofi -S dmenu | cliphist decode | wl-copy
 
 ## Application shortcuts
     bindsym $mod+w exec firefox
     bindsym $mod+Shift+b exec rofi-bluetooth	
-# bindsym $mod+Shift+b exec --no-startup-id wofi-bluetooth #void
+# bindsym $mod+Shift+b exec --no-startup-id wofi-bluetooth #if need wofi
     bindsym $mod+Control+l exec swaylock
     bindsym $mod+Control+m exec udiskie -t
 # Floating window rules
