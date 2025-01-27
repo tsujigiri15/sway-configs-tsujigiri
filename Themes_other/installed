@@ -14,8 +14,6 @@ sudo systemctl enable bluetooth
 sudo systemctl enable dbus
 sudo usermod -aG input tom
 
-Snapper and timeshift set up
-
 # Package cache clearup
 
 sudo mkdir -p /etc/pacman.d/hooks
@@ -31,9 +29,7 @@ paru -Rns wofi btop micro octopi alacritty
 
 ### Fedora
 
-# coprs  - should be able to install fedora_codecs_copr.sh
-
-sudo dnf copr enable mmuzila/signal atim/heroic-games-launcher ilyaz/LACT bieszczaders/kernel-cachyos-addons 
+# codecs and coprs - should be able to install fedora_codecs_copr.sh
 
 #packages
 
@@ -44,19 +40,6 @@ sudo dnf autoremove
 
 May also want a calculator
 If android does not show up in thunar, install jmtpfs gvfs-mtp gvfs-gphoto2
-
-# codecs - should be able to install fedora_codecs_copr.sh
-
-sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
-sudo dnf config-manager setopt fedora-cisco-openh264.enabled=1
-sudo dnf swap ffmpeg-free ffmpeg --allowerasing
-sudo dnf update @multimedia --setopt="install_weak_deps=False" --exclude=PackageKit-gstreamer-plugin
-sudo dnf swap mesa-va-drivers mesa-va-drivers-freeworld
-sudo dnf swap mesa-vdpau-drivers mesa-vdpau-drivers-freeworld
-sudo dnf swap mesa-va-drivers.i686 mesa-va-drivers-freeworld.i686
-sudo dnf swap mesa-vdpau-drivers.i686 mesa-vdpau-drivers-freeworld.i686
-sudo dnf install rpmfusion-free-release-tainted
-sudo dnf install libdvdcss
 
 # Things that need to be executable
 
@@ -135,44 +118,4 @@ cd Adwaita-for-Steam
 
 exec --no-startup-id startsound.sh
 
-### Void
-
-# Needed packages
-
-xbps-install -S void-repo-nonfree void-repo-multilib
-
-xbps-install -S dbus bluez NetworkManager NetworkManager-openvpn libspa-bluetooth pipewire wireplumber cliphist wl-clipboard	grim   sway swaybg swaylock swayidle Waybar mako ranger mpd brightnessctl ncmpcpp yewtube Imv network-manager-applet htop libnotify atool xdg-desktop-portal-wlr xorg-server-xwayland snes9x-gtk mupdf shotwell newsboat MangoHud gamemode lutris curl flatpak power-profiles-daemon corectrl fish-shell foot Signal-Desktop mpv vim steam libreoffice exfatprogs ntfs-3g vulkan-loader vulkan-loader-32bit mesa mesa-32bit fastfetch wofi nano elogind xtools git wlroots dmenu rxvt-unicode font-awesome fontconfig nerd-fonts-symbols-ttf	wlogout libdvdcss libdvdnav libdvdread libdvdread-32bit jmtpfs gvfs-mtp gvfs-gphoto2 vlc vulkan-loader vulkan-loader-32bit linux-headers font-awesome font-awesome5 font-awesome6 liberation-fonts-ttf unzip android-udev-rules android-file-transfer-linux udiskie
-
-# if running on main pc
-mesa-vulkan-radeon mesa-vulkan-radeon-32bit
-
-# if running on laptop
-mesa-vulkan-intel mesa-vulkan-intel-32bit broadcom-bt-firmware broadcom-wl-dkms 
-
-# Needed servcies
-
-sudo rm /var/service/dhcpcd
-
-sudo ln -s /etc/sv/pipewire /var/service
-sudo ln -s /etc/sv/dbus /var/service
-sudo ln -s /etc/sv/bluetoothd /var/service
-sudo ln -s /etc/sv/elogind /var/service
-sudo ln -s /etc/sv/NetworkManager /var/service
-
-# Void flatpaks
-flatpak install com.simplenote.Simplenote org.duckstation.DuckStation us.zoom.Zoom com.heroicgameslauncher.hgl
-
-# Bluetooth
-https://github.com/techkek/wofi-bluetooth
-
-# Extra theming and config
-https://github.com/gfhdhytghd/wlogout-theme/blob/main/README.md 
-https://github.com/sentriz/cliphist - to connect wofi for clipboard
-https://mephisto.cc/en/tech/wofi/ - wofi theming basics
-https://github.com/kmephistoh/dotfiles/tree/main/.config/wofi - example config
-
-# Fish Alias
-
-~/.config/fish/config.fish
-alias xup = 'sudo xbps-install -Su'
-alias fuk = 'flatpak update'
+# Fish convenient aliases
