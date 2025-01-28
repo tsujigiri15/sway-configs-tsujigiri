@@ -11,4 +11,4 @@ sudo dnf swap mesa-va-drivers.i686 mesa-va-drivers-freeworld.i686
 sudo dnf swap mesa-vdpau-drivers.i686 mesa-vdpau-drivers-freeworld.i686
 sudo dnf install rpmfusion-free-release-tainted
 sudo dnf install libdvdcss
-sudo dnf copr enable mmuzila/signal atim/heroic-games-launcher ilyaz/LACT bieszczaders/kernel-cachyos-addons
+sudo dnf copr enable useidel/signal-desktop atim/heroic-games-launcher ilyaz/LACT bieszczaders/kernel-cachyos-addons
