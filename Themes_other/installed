@@ -119,3 +119,6 @@ cd Adwaita-for-Steam
 exec --no-startup-id startsound.sh
 
 # Fish convenient aliases
+
+# Fonts
+Otf goes in /usr/share/fonts/opentype then sudo fc-cache -f -v
