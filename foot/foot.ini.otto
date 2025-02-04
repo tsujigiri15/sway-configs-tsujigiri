@@ -1,0 +1,24 @@
+font=NotoSansMono:size=10
+
+[colors]
+background=2C3746 # or 28333F for alternate
+foreground=ffffff # or F0DADD for soft orange
+alpha=0.95
+
+regular0=176EF1 # blue
+regular1=FD3762 # magenta
+regular2=2AACAA # turquoise
+regular3=F7C067 # yellowish
+regular4=F77067 # salmon
+regular5=CB75F7 # purple
+regular6=60CCD8 # cyan
+regular7=9CACAD # grey
+
+bright0=1874FF # or 15C5DC for brighter
+bright1=FF4772 # or F22C57 for brighter
+bright2=2EBDBB # or 28A09C for brighter
+bright3=FFC66A # or DDAB5C for brighter
+bright4=FF7C77 # nice shade for soft highlight or DF635D for brighter
+bright5=CE79E1 # or AF69DD for brighter
+bright6=60CCD8 # or 4FB0B3 for brighter
+bright7=AABCBD # or #879596 for brighter
