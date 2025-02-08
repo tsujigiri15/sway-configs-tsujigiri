@@ -10,8 +10,8 @@
     /* Gruvbox dark colors */
     gruvbox-dark-bg0:          rgba( 44, 55, 70, 50 % ); /*hex #000b1e*/
     gruvbox-dark-bg0-soft:     rgba( 40, 51, 63, 50 % ); /*hex #091833*/
-    gruvbox-dark-bg3:          #123e7c;
-    gruvbox-dark-fg0:          #2AACAA;
+    gruvbox-dark-bg3:          #2AACAA;
+    gruvbox-dark-fg0:          #F0DADD;
     gruvbox-dark-fg1:          #ffffff;
     gruvbox-dark-red-dark:     #FD3762;
     gruvbox-dark-red-light:    #FF4772;
