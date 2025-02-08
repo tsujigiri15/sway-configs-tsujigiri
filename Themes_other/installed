@@ -118,6 +118,10 @@ cd Adwaita-for-Steam
 
 exec --no-startup-id startsound.sh
 
+# Scripts
+
+bt_power chmod +x then move to .local/bin
+
 # Fish convenient aliases
 
 # Fonts
