@@ -169,7 +169,7 @@
     "custom/bluetooth":{
     "format": "BT ",
     "on-click":"rofi-bluetooth"
-    "tooltip-format"; "Bluetooth menu"	
+    "tooltip-format"; "Bluetooth menu",	
     },
     "custom/power": {
         "format" : "⏻ ",
