@@ -24,9 +24,9 @@
         "temperature",*/
         "backlight",
         /*"keyboard-state",
-        "sway/language",*/
+        "sway/language",
         "battery",
-       // "battery#bat2",
+        "battery#bat2",*/
         "clock",
 	"power-profiles-daemon",
         "idle_inhibitor",
