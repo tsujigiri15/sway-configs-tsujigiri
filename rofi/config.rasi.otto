@@ -1,0 +1,20 @@
+
+@theme ".config/rofi/themes/otto.rasi"
+
+configuration {
+show-icons: true;
+icon-theme: "Nordzy-dark";
+
+}
+
+window {
+width: 33%;
+
+}
+listview {
+
+	enabled: true;
+	columns: 2;
+	lines: 7;
+
+}
