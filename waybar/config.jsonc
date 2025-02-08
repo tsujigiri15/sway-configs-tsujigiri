@@ -168,6 +168,7 @@
   
     "custom/bluetooth":{
     "format": "BT ",
+    // "exec":"bt_power",
     "on-click":"rofi-bluetooth",
     "tooltip-format": "Bluetooth menu",	
     },
