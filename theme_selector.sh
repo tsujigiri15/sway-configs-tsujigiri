@@ -1,5 +1,5 @@
 #! /bin/bash
-echo "Available themes: cyber, everforest, gruvbox, nord, nordmod, solarized"
+echo "Available themes: cyber, everforest, gruvbox, nord, nordmod, otto, solarized"
 
 read -p "Select new themes: " theme
 
@@ -73,6 +73,19 @@ then
 
 echo "Modifying Nord with cooler terminal and bar"
 
+elif [ "$theme" = "otto" ]
+
+then
+
+	cp foot/foot.ini.otto foot/foot.ini
+	cp mako/config.otto mako/config
+	cp rofi/config.rasi.otto rofi/config.rasi
+	cp waybar/style.css.otto waybar/style.css
+	sed -i '7s/appear.*/appear_otto/' $HOME/.config/sway/config
+	#sudo flatpak override --env=GTK_THEME=Nordic-bluish-v40
+        #sudo flatpak override --env=ICON_THEME=Nordzy-dark
+
+echo "Using Otto, you classy mofo"
 
 elif [ "$theme" = "solarized" ]
 
