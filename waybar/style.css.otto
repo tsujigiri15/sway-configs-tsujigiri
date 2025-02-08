@@ -28,7 +28,7 @@ background-color: transparent;
 margin-bottom: 6px;
 padding: 0px 0px 0px 6px;
 margin-right: 8px;
-colour: #ffffff;
+color: #ffffff;
 }
 
 #workspaces  {
