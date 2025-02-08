@@ -1,0 +1,19 @@
+#! /bin/bash
+
+while true
+
+do
+
+sleep 5
+
+if bluetoothctl show | grep -q "Powered: yes"; then
+
+echo "BT : On"
+
+else
+
+echo "BT : Off"
+
+fi
+
+done
