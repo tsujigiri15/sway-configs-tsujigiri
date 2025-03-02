@@ -1,4 +1,4 @@
-Themimg for sway to let you implement a gruvbox, everforest, cyberpunk neon, solarized, nord, (or modified nord with some added visual punch to the terminal and waybar) look. Each theme includes sway, waybar, rofi, foot (and so all terminal applications) and mako, as well as a matching GTK theme
+Themimg for sway to let you implement a gruvbox, everforest, cyberpunk neon, solarized, nord, or Otto look. Each theme includes sway, waybar, rofi, foot (and so all terminal applications) and mako, as well as a matching GTK and icon theme and font I think fits.
 
 It should be fairly easy to swap between the 5 using the included theme_selector.sh bash script, which modifies all required configs in one go and reloads sway/mako. Just put the script in your ~/.local/bin folder and run it with theme_selector.sh, it will prompt for the theme you want to use; type the name and you're away. ~/.local/bin is added to the $PATH by the fish config included (pinched and heavily modified from CachyOSs).
 
